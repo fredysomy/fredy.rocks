@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Indie+Flower&family=Nunito:ital,wght@0,200;0,800;1,600&display=swap');
+body{
+ background-color: #393840;
+ 
+}
+
+#imgme{
+  border-radius: 25%;
+  margin-left: 18%;
+
+  margin-top: 16vh;
+
+  width: 400px;
+  height: 400px;
+}
+#divmain{
+  display: flex;
+  flex-direction: row;
+
+}
+#det{
+  align-items: left;
+   margin-top: 23vh;
+    margin-left: 10%;
+    color:white;
+}
+.we{
+   justify-content: space-around;
+   margin-left:20px;
+   color:white;
+}
+#name{
+  font-family: 'Comfortaa', cursive;
+  color:white;
+}
+.sub{
+font-family: 'Nunito', sans-serif;
+color:white;
+}
+@media screen and (max-width:600px) {
+
+  #divmain{
+    display: flex;
+    flex-direction: column;
+  }
+  #imgme{
+     border-radius: 25%;
+    margin: 0 auto;
+     width: 256px;
+    height: 256px;
+    margin-top: 2vh;
+  }
+  #det{
+   margin-top: 1vh;
+    margin-left: 0;
+    
+}
+#name{
+  font-size: 35px;
+}
+}
