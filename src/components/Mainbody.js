@@ -28,7 +28,7 @@ export default class Mainbody extends Component{
           <div>
             <a href="https://dev.to/fredysomy" ><img height="32px" width="32px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgajA05XF6eHfhMRKT9EunERUm82WuKMe8MQ&usqp=CAU"/></a>
 <a href="https://linkedin.com/in/fredysomy"><img height="32px" className="we" width="32px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLmPdKRkCtqXB94svbTykR1XudgqXLhlolMQ&usqp=CAU" /></a>
-<a href="https://twitter.com/FredySomy"><img height="32px" className="we" width="32px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoaGWjOH7kQ2Vpv34G4VtDKSWVwkuqiPxV6Q&usqp=CAU"/></a>
+<a href="https://twitter.com/FredySomy"><img height="32px" className="we" width="32px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuhVOGJRD_c4IgnHUmAff8tHTB5fLDuP9ECw&usqp=CAU"/></a>
 <a href="https://fredysomy.hashnode.dev" ><img height="32px" className="we" width="32px" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1592752137870/scHk9tTaA.png?auto=compressUQ1nKYMaA=w384-h384"/></a>
         </div>
         </div>
