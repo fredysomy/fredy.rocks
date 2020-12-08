@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Indie+Flower&family=Nunito:ital,wght@0,200;0,800;1,600&display=swap');
-body{
+html{
  background: #3BB6FF;
 background: -webkit-linear-gradient(top left, #3BB6FF, #395D79);
 background: -moz-linear-gradient(top left, #3BB6FF, #395D79);
