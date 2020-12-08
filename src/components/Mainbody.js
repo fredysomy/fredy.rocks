@@ -9,7 +9,7 @@ export default class Mainbody extends Component{
           <h1 id ="name">Hi I am Fredy Somy</h1>
             <hr />
           <h5 >I am  Software Developer and a Student</h5>
-          <h5 align="left">Some stuffs i make.⚡</h5>
+          <h5>Some stuffs i make.⚡</h5>
           
           <ul className="sub" align="left">
             <li>
