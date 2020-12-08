@@ -6,10 +6,10 @@ export default class Mainbody extends Component{
       <div id="divmain">
         <img id="imgme" src="https://avatars2.githubusercontent.com/u/65971072?s=460&u=dd6ae329cb0a04cbddc6c0959a924ceeac62bf02&v=4"/>
         <div  id="det">
-          <h1 id ="name">Hi I am Fredy Somy</h1>
+          <h1 id ="name">Hi I am Fredy Somy 😎</h1>
             <hr />
-          <h5 >I am  Software Developer by default</h5>
-          <h5>I develop Many awesome stuffs.</h5>
+          <h5 >I am  Software Developer and a Student</h5>
+          <h5>⚡Some stuffs i make.⚡</h5>
           
           <ul className="sub" align="left">
             <li>
