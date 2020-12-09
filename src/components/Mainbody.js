@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './Mainbody.css';
 export default class Mainbody extends Component{
+    
   render(){
     return(
       <div id="divmain">
@@ -9,7 +10,7 @@ export default class Mainbody extends Component{
           <h1 id ="name">Hi I am Fredy Somy</h1>
             <hr />
           <h5 >I am  <b>Software Developer</b> and a Student</h5>
-          <h5>I foucs mainly on Backend Web development with Python and Javascript . I also work in the Frontend with React . I like to make Desktop apps and Pypi modules.</h5>
+          <h5 id="desc">I foucs mainly on Backend Web development with Python and Javascript . I also work in the Frontend with React . I like to make Desktop apps and Pypi modules.</h5>
           <hr/>
           <div>
             <a href="https://dev.to/fredysomy" ><i id="we" class="fab fa-dev fa-2x"></i></a>

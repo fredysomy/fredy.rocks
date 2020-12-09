@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Indie+Flower&family=Nunito:ital,wght@0,200;0,800;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 body{
  background-color: #2C3336;
  
+}
+#desc{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#namelight{
+    color:red;
 }
 
 #imgme{
@@ -56,12 +63,13 @@ color:white;
   }
   #det{
    margin-top: 5vh;
-    margin-left: 0;
-    width:95%;
+    margin-left: auto;
+    margin-right:auto;
+    width:97%;
     
 }
 #det h5{
-  font-size: 20px;
+  font-size: 18px;
 }
 #name{
   font-size: 35px;
