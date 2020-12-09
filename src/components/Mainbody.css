@@ -14,9 +14,9 @@ body{
 #imgme{
   border-radius: 25%;
   margin-left: 18%;
-
+  filter: drop-shadow(5px 5px cyan); 
   margin-top: 16vh;
-  border: 3px solid cyan;
+ 
   width: 400px;
   height: 400px;
 }
