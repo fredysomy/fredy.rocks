@@ -20,17 +20,19 @@ body{
 }
 #det{
   align-items: left;
-
+  width:30%;
    margin-top: 25vh;
 
     margin-left: 10%;
     color:white;
 }
-.we{
+#we{
    justify-content: space-around;
    margin-left:20px;
-   color:white;
-}
+  
+}   
+   
+
 #name{
   font-family: 'Comfortaa', cursive;
   color:white;
@@ -48,14 +50,18 @@ color:white;
   #imgme{
      border-radius: 25%;
     margin: 0 auto;
-     width: 256px;
-    height: 256px;
+     width: 230px;
+    height: 230px;
     margin-top: 4vh;
   }
   #det{
    margin-top: 5vh;
     margin-left: 0;
+    width:95%;
     
+}
+#det h5{
+  font-size: 15px;
 }
 #name{
   font-size: 35px;

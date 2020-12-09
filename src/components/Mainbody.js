@@ -8,28 +8,15 @@ export default class Mainbody extends Component{
         <div  id="det">
           <h1 id ="name">Hi I am Fredy Somy</h1>
             <hr />
-          <h5 >I am  Software Developer and a Student</h5>
-          <h5>Some stuffs i make.⚡</h5>
-          
-          <ul className="sub" align="left">
-            <li>
-              Web Apps
-            </li>
-            <li>
-              Desktop Apps
-            </li>
-            <li>
-              Pypi packages
-            </li>
-            <li>
-              CLI tools
-            </li>
-          </ul>
+          <h5 >I am  <b>Software Developer</b> and a Student</h5>
+          <h5>I foucs mainly on Backend Web development with Python and Javascript . I also work in the Frontend with React . I like to make Desktop apps and Pypi modules.</h5>
+          <hr/>
           <div>
-            <a href="https://dev.to/fredysomy" ><img height="32px" width="32px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgajA05XF6eHfhMRKT9EunERUm82WuKMe8MQ&usqp=CAU"/></a>
-<a href="https://linkedin.com/in/fredysomy"><img height="32px" className="we" width="32px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLmPdKRkCtqXB94svbTykR1XudgqXLhlolMQ&usqp=CAU" /></a>
-<a href="https://twitter.com/FredySomy"><img height="32px" className="we" width="32px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuhVOGJRD_c4IgnHUmAff8tHTB5fLDuP9ECw&usqp=CAU"/></a>
-<a href="https://fredysomy.hashnode.dev" ><img height="32px" className="we" width="32px" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1592752137870/scHk9tTaA.png?auto=compressUQ1nKYMaA=w384-h384"/></a>
+            <a href="https://dev.to/fredysomy" ><i id="we" class="fab fa-dev fa-2x"></i></a>
+<a href="https://linkedin.com/in/fredysomy"><i id="we" class="fab fa-linkedin fa-2x"></i></a>
+<a href="https://twitter.com/FredySomy"><i id="we" class="fab fa-twitter-square fa-2x"></i></a>
+<a href="https://github.com/fredysomy"><i id="we" class="fab fa-github-square fa-2x"></i></a>
+<a href="mailto:fredysomy@gmail.com"><i id="we" class="far fa-envelope fa-2x"></i></a>
         </div>
         </div>
       </div>
