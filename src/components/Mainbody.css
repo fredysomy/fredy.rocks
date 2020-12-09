@@ -39,9 +39,7 @@ body{
   
 }   
    
-#we{
-filter: drop-shadow(2px 2px cyan); 
-}
+
 
 #name{
   font-family: 'Comfortaa', cursive;
