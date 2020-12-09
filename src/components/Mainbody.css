@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Indie+Flower&family=Nunito:ital,wght@0,200;0,800;1,600&display=swap');
 body{
- background-color: #393840;
+ background-color: #2C3336;
  
 }
 
@@ -20,7 +20,9 @@ body{
 }
 #det{
   align-items: left;
-   margin-top: 24vh;
+
+   margin-top: 25vh;
+
     margin-left: 10%;
     color:white;
 }
@@ -48,7 +50,7 @@ color:white;
     margin: 0 auto;
      width: 256px;
     height: 256px;
-    margin-top: 2vh;
+    margin-top: 4vh;
   }
   #det{
    margin-top: 5vh;
