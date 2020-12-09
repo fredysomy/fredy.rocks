@@ -4,6 +4,9 @@ body{
  background-color: #2C3336;
  
 }
+#divmain{
+    height:95vh;
+}
 #desc{
     font-family: 'Nanum Gothic', sans-serif;
 }
