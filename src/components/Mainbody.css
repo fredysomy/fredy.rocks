@@ -16,7 +16,7 @@ body{
   margin-left: 18%;
 
   margin-top: 16vh;
-
+  border: 3px solid cyan;
   width: 400px;
   height: 400px;
 }
