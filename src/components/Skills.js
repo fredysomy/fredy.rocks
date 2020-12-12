@@ -4,23 +4,41 @@ import './Skills.css'
 export default class Skills extends Component{
     render(){
         return(
-            <div id="div_skills" align="left">
-                <h2 align="center" id="head">Some <font color="cyan"><u>Tech</u></font> i know.</h2>
-    <img src="https://devicon.dev/devicon.git/icons/linux/linux-original.svg" id="icon" width="43px" height="43px"/>
-    <img src="https://devicon.dev/devicon.git/icons/html5/html5-original.svg" width="43px" id="icon" height="43px"/>
-    <img src="https://devicon.dev/devicon.git/icons/css3/css3-original.svg" width="43px" id="icon" height="43px"/>
-    <img src="https://devicon.dev/devicon.git/icons/sass/sass-original.svg" width="43px" id="icon"height="43px"/>
-    <img src="https://devicon.dev/devicon.git/icons/javascript/javascript-original.svg" width="43px" id="icon" height="43px"/>
-    <img src="https://devicon.dev/devicon.git/icons/nodejs/nodejs-original.svg" width="43px" id="icon" height="43px"/>
-    <img src="https://devicon.dev/devicon.git/icons/bootstrap/bootstrap-plain.svg" width="43px" id="icon" height="43px"/>
-    <img src="https://devicon.dev/devicon.git/icons/typescript/typescript-original.svg" width="43px" id="icon" height="43px"/>
-    <img src="https://devicon.dev/devicon.git/icons/react/react-original.svg" width="43px" id="icon" height="43px"/>
-    <img src="https://devicon.dev/devicon.git/icons/electron/electron-original.svg" width="43px" id="icon" height="43px"/>
-    <img src="https://devicon.dev/devicon.git/icons/python/python-original.svg" width="43px" id="icon" height="43px"/>
-             <img src="https://devicon.dev/devicon.git/icons/heroku/heroku-original.svg" width="43px" id="icon" height="43px"/>
-    <img src="https://devicon.dev/devicon.git/icons/mongodb/mongodb-original.svg" width="43px" id="icon" height="43px"/>
-             <img src="https://devicon.dev/devicon.git/icons/github/github-original.svg" width="43px" id="icon" height="43px"/>
+            <div id="main">
+                  <h3 id="head" align="center">My <u><font color="cyan">Projects</font></u></h3>
+            <div id="pro">
+              
+             <div className="projects">
+               <h3 id="pro_head">MarkdownIt</h3>
+               <h6 id="pro_tools">Electron,Node,Html,Css</h6>
+               <p id="desc">Efficient Code Editor to live render Markdown and save as Markdown,Html and Pdf + Instant Hosting in The Web</p>
+             <a href="https://github.com/fredysomy/MarkdownIt"><i class="fab fa-github-square fa-2x"></i></a>
+             </div>
+             <div className="projects">
+                  <h3 id="pro_head">PysonDB</h3>
+               <h6 id="pro_tools">Python</h6>
+               <p id="desc">A Simple , Lightweight , Efficent JSON based database for Python and many other features.</p>
+             <a href="https://github.com/fredysomy/pysonDB"><i class="fab fa-github-square fa-2x"></i></a>
+             </div>
+             <div className="projects">
+                  <h3 id="pro_head">HealthApp</h3>
+               <h6 id="pro_tools">Python,Pyqt5</h6>
+               <p id="desc">
+A Python desktop application .It can fetch Wikipedia results and search details about doctors in a location</p>
+             <a href="https://github.com/fredysomy/HealthApp"><i class="fab fa-github-square fa-2x"></i></a>
+             </div>
+             <div className="projects">
+                  <h3 id="pro_head">Blogitn0w</h3>
+               <h6 id="pro_tools">MEHN Stack</h6>
+               <p id="desc">A simple Blog App.Users can write blogs, have a dashboard where they can edit,create blogs</p>
+             <a href="https://github.com/fredysomy/Blogitn0w"><i class="fab fa-github-square fa-2x"></i></a>
+             </div>
+            </div>
             </div>
         )
+        
+        
+            
+        
     }
 }  
