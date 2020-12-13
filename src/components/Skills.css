@@ -25,13 +25,14 @@
     height:270px;
      border-radius: 5px;
     margin:30px;
+    padding:10px;
 border-image-source: linear-gradient( to right, #f32170, #ff6b08, #cf23cf, #eedd44); 
   border-image-slice: 1;
 }
 #pro_head{
     color:white;
     margin-top:10px;
-    text-decoration: underline;
+   
 }
 #pro_tools{
      color:rgb(188, 252, 252);
@@ -43,7 +44,7 @@ border-image-source: linear-gradient( to right, #f32170, #ff6b08, #cf23cf, #eedd
 }
   
 
-@media screen and (max-width:600px) {
+@media all and (max-width:600px) {
     #pro{
    
     display: flex;
@@ -54,7 +55,12 @@ border-image-source: linear-gradient( to right, #f32170, #ff6b08, #cf23cf, #eedd
 }
 #main{
 
-    margin:2% auto;
+    margin:3% auto;
     
 }
+}
+@media all and (max-width:400px){
+    #main{
+        margin-top:10vh;
+    }
 }

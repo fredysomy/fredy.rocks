@@ -13,12 +13,17 @@ body{
 #namelight{
     color:red;
 }
-
+.btn{
+    border:5px solid ;
+    border-radius: 20px;
+    border-image-source: linear-gradient( to right, #f32170, #ff6b08, #cf23cf, #eedd44); 
+  border-image-slice: 1;
+}
 #imgme{
   border-radius: 25%;
   margin-left: 18%;
   filter: drop-shadow(5px 5px cyan); 
-  margin-top: 16vh;
+  margin-top: 22vh;
  
   width: 400px;
   height: 400px;
@@ -42,21 +47,16 @@ body{
   
 }   
    
-
+.resume{
+    margin:4% 0;
+}
 
 #name{
   font-family: 'Comfortaa', cursive;
   color:white;
-background: linear-gradient( 
 
-            to right, #f32170, #ff6b08, 
-
-             #cf23cf, #eedd44); 
-
-        -webkit-text-fill-color: transparent; 
-
-        -webkit-background-clip: text; 
 }
+
 .sub{
 font-family: 'Nunito', sans-serif;
 color:white;
