@@ -25,7 +25,8 @@
     height:270px;
      border-radius: 5px;
     margin:30px;
-
+border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+  border-image-slice: 1;
 }
 #pro_head{
     color:white;
