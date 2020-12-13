@@ -25,7 +25,7 @@
     height:270px;
      border-radius: 5px;
     margin:30px;
-border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+border-image-source: linear-gradient( to right, #f32170, #ff6b08, #cf23cf, #eedd44); 
   border-image-slice: 1;
 }
 #pro_head{
