@@ -15,9 +15,8 @@ body{
 }
 .btn{
     border:5px solid ;
-    border-radius: 20px;
-    border-image-source: linear-gradient( to right, #f32170, #ff6b08, #cf23cf, #eedd44); 
-  border-image-slice: 1;
+    border-radius: 10px;
+   
 }
 #imgme{
   border-radius: 25%;
@@ -48,7 +47,7 @@ body{
 }   
    
 .resume{
-    margin:4% 0;
+    margin:5% 0;
 }
 
 #name{
