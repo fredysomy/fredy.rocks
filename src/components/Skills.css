@@ -61,6 +61,6 @@ border-image-source: linear-gradient( to right, #f32170, #ff6b08, #cf23cf, #eedd
 }
 @media all and (max-width:400px){
     #main{
-        margin-top:10vh;
+        margin-top:8vh;
     }
 }
