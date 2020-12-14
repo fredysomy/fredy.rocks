@@ -21,11 +21,11 @@
 
 .projects{
     width:270px;
-    border:2px cyan solid;
+    border:3px cyan solid;
     height:270px;
-     border-radius: 5px;
+     border-radius: 10px;
     margin:30px;
-    padding:10px;
+    padding:13px;
 border-image-source: linear-gradient( to right, #f32170, #ff6b08, #cf23cf, #eedd44); 
   border-image-slice: 1;
 }
