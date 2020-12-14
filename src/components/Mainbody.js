@@ -20,7 +20,7 @@ export default class Mainbody extends Component{
 <a href="https://github.com/fredysomy"><i id="we" class="fab fa-github-square fa-2x"></i></a>
 <a href="mailto:fredysomy@gmail.com"><i id="we" class="far fa-envelope fa-2x"></i></a>
         </div>
-        <button  class="btn btn-primary resume">Download Resume</button>
+        <button  class="btn success resume">Download Resume</button>
         </div>
         <hr/>
         
