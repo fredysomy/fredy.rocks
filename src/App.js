@@ -3,15 +3,22 @@ import './App.css';
 import Mainbody from './components/Mainbody'
 import Header from './components/Header'
 import Skills from './components/Skills'
-
+import Projects from './projects/Projects'
+import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
-       <Header/>
-       <Mainbody/>
-       <Skills/>
-       
-    </div>
+    <Router>
+        <div className="App">
+        <Header/>
+            <Switch>
+                <Route exact path="/">
+                    <Mainbody/>
+                    <Skills/>
+                </Route>
+                <Route exact path="/project" component={Projects} />
+            </Switch>
+        </div>
+    </Router>
   );
 }
 

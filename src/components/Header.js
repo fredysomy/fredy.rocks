@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 import './Header.css'
+import {Link} from 'react-router-dom';
 export default class Header extends Component{
   render(){
     return(
@@ -15,10 +16,11 @@ export default class Header extends Component{
       <li class="nav-item active">
         <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
       </li>
-     
+     <Link to='/project'>
       <li class="nav-item">
-        <a class="nav-link" href="#main">Projects</a>
+        <a class="nav-link">Projects</a>
       </li>
+      </Link>
        <li class="nav-item">
         <a class="nav-link" href="#">Skills</a>
       </li>
