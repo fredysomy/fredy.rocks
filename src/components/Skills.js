@@ -1,6 +1,6 @@
 import react,{Component} from 'react'
 import './Skills.css'
-
+import {Link} from 'react-router-dom';
 export default class Skills extends Component{
     render(){
         return(
@@ -35,6 +35,9 @@ A Python desktop application .It can fetch Wikipedia results and search details 
              <a href="https://github.com/fredysomy/Blogitn0w"><i class="fab fa-github-square fa-2x"></i></a>
              </div>
             </div>
+            <Link to="/projects">
+            <h5 id="head" align="center">View all my Projects.</h5>
+            </Link>
             </div>
         )
         

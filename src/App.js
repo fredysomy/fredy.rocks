@@ -15,7 +15,7 @@ function App() {
                     <Mainbody/>
                     <Skills/>
                 </Route>
-                <Route exact path="/project" component={Projects} />
+                <Route exact path="/projects" component={Projects} />
             </Switch>
         </div>
     </Router>
