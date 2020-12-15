@@ -22,7 +22,7 @@ export default class Mainbody extends Component{
         </div>
         <div id="buttonref">
          <button class="btn btn-outline-primary resume">Hire Me</button>
-        <a download href="https://drive.google.com/uc?export=view&id=1XRRQqGRqT3jK_EVNV4WSjDBRHQ8o9-rF"><button  class="btn btn-outline-primary resume">Download Resume</button></a>
+        <a download href="https://drive.google.com/uc?export=view&id=1XRRQqGRqT3jK_EVNV4WSjDBRHQ8o9-rF"><button  class="btn btn-outline-primary resume">Resume</button></a>
         
         </div>
         </div>
