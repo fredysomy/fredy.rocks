@@ -19,8 +19,7 @@ body{
    
 }
 #buttonref{
-display:flex;
- flex-direction: row;
+margin: 0 1%;
 
 }
 #imgme{
