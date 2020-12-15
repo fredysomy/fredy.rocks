@@ -21,8 +21,9 @@ export default class Mainbody extends Component{
 <a href="mailto:fredysomy@gmail.com"><i id="we" class="far fa-envelope fa-2x"></i></a>
         </div>
         <div id="buttonref">
+         <button class="btn btn-outline-primary resume">Hire Me</button>
         <a download href="https://drive.google.com/uc?export=view&id=1XRRQqGRqT3jK_EVNV4WSjDBRHQ8o9-rF"><button  class="btn btn-outline-primary resume">Download Resume</button></a>
-        <button class="btn btn-outline-primary resume">Hire Me</button>
+        
         </div>
         </div>
         <hr/>
