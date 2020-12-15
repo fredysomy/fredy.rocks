@@ -18,6 +18,11 @@ body{
     border-radius: 5px;
    
 }
+#buttonref{
+display:flex;
+ flex-direction: row;
+
+}
 #imgme{
   border-radius: 25%;
   margin-left: 18%;
