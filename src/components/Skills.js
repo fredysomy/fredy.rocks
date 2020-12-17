@@ -12,7 +12,7 @@ export default class Skills extends Component{
              <div className="projects">
                <h3 id="pro_head">MarkdownIt</h3>
                <h6 id="pro_tools">Electron,Node,Html,Css</h6>
-               <p id="desc">Efficient Code Editor to live render Markdown and save as Markdown,Html and Pdf + Instant Hosting in The Web</p>
+               <p id="desc">Efficient Code Editor to live render Markdown and save as Markdown,Html and Pdf + Instant Hosting </p>
             
              <a href="https://github.com/fredysomy/MarkdownIt"><i class="fab fa-github-square fa-2x links"></i></a>
            
@@ -20,7 +20,7 @@ export default class Skills extends Component{
              <div className="projects">
                   <h3 id="pro_head">PysonDB</h3>
                <h6 id="pro_tools">Python</h6>
-               <p id="desc">A Simple , Lightweight , Efficent JSON based database for Python and many other features.</p>
+               <p id="desc">A Simple , Lightweight , Efficent JSON based database for Python with many other features.</p>
              <a href="https://github.com/fredysomy/pysonDB"><i class="fab fa-github-square fa-2x links"></i></a>
              </div>
              <div className="projects">
