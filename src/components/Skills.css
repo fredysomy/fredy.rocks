@@ -21,13 +21,13 @@
 
 .projects{
     width:290px;
-    border:3px cyan solid;
+  
     height:270px;
      border-radius: 10px;
     margin:30px;
-    padding:13px;
-border-image-source: linear-gradient( to right, #1792bf , #1cb2e8, cyan); 
-  border-image-slice: 1;
+    padding:0px;
+ 
+    border-image-slice: 1;
 }
 #pro_head{
     color:white;
@@ -42,7 +42,7 @@ border-image-source: linear-gradient( to right, #1792bf , #1cb2e8, cyan);
     margin-top:20px;
     color:white;
 }
-  
+
 
 @media all and (max-width:600px) {
     #pro{
