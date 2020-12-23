@@ -3,3 +3,9 @@
 #Head{
   font-family: 'Play', sans-serif;
 }
+.navbar-dark .navbar-toggler {
+   
+ border-image-source: linear-gradient(to right, cyan, #deeb34);
+ border-image-slice: 1;
+
+}
