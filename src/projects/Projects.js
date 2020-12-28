@@ -26,7 +26,25 @@ export default class Projects extends Component{
                         <button className="btn btn-primary btn-sm bttn">Documentation</button>
                 </div>
             </div>
-            
+            <div className="maindiv">
+                <img className="img-div" src="https://drive.google.com/uc?export=view&id=1CWP-yFwqgy2HKbbHctxHbOW63hwJ4oqX"/>
+                <div className="content-div">
+                        <h3>
+                            PysonDB
+                        </h3>
+                        <p>
+                            A Simple, Lightweight, Efficent JSON based DataBase for Python with Inbuilt CLI to delete,display,create JSON database.
+                        </p>
+                        <p>
+                            Usefull for SImple Desktop Apps.
+                        </p>
+                        <p id="tech">
+                            Python
+                        </p>
+                        <button className="btn btn-primary btn-sm bttn">Source Code</button>
+                        <button className="btn btn-primary btn-sm bttn">Documentation</button>
+                </div>
+            </div>
      
        
       </div>
