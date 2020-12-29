@@ -8,7 +8,7 @@ export default class Projects extends Component{
                
             <h3 id="head" align="center">My <u><font color="cyan">Projects</font></u></h3>
                 <div className="maindiv">
-                <img className="img-div" src="https://drive.google.com/uc?export=view&id=1CWP-yFwqgy2HKbbHctxHbOW63hwJ4oqX"/>
+                <img className="img-div" src="https://raw.githubusercontent.com/fredysomy/MarkdownIt/master/icons/dassad.png"/>
                 <div className="content-div">
                         <h3>
                             MarkdownIt
