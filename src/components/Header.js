@@ -17,19 +17,19 @@ export default class Header extends Component{
     <ul class="navbar-nav mr-auto">
      <Link to='/'>
       <li class="nav-item active">
-        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"><font color="cyan">About</font></a>
+        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">About</a>
       </li>
 </Link>
      <Link to='/projects'>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"><font color="cyan">Projects</font></a>
+        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Projects</a>
       </li>
       </Link>
        <li class="nav-item">
-        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"href="#"><font color="cyan">Skills</font></a>
+        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"href="#">Skills</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#"><font color="cyan">Contact</font></a>
+        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#">Contact</a>
       </li>
       
     </ul>

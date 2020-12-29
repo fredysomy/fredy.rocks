@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
 import './Mainbody.css';
+import Particles from 'react-particles-js';
 export default class Mainbody extends Component{
     
   render(){
     return(
-      <div id="divmain">
+      <div id="divmain" style={{ position: 'relative', overflow: "hidden" }}>
+          <div style={{ position: 'absolute'}}>
+        <Particles height="100vh" width="100vw" />
+      </div>
         <img id="imgme" src="https://avatars2.githubusercontent.com/u/65971072?s=460&u=dd6ae329cb0a04cbddc6c0959a924ceeac62bf02&v=4"/>
         <div  id="det">
           <h1 id ="name">Hi I am <font color="cyan">

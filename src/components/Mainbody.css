@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 body{
  background-color: #1e2333;
+ z-index: 3;
  
 }
 #divmain{

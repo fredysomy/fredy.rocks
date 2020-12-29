@@ -15,11 +15,12 @@
 .maindiv{
     width:70vw;
     height:fit-content;
-    background-color:white;
+    background-color: #3a415e;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
     margin:3%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 19px 38px rgba(0,0,0,0.30);
    
    
 }
@@ -36,6 +37,8 @@
     height:90%;
     width: 40%;
     text-align: left;
+    color: white;
+     font-family: 'Nanum Gothic', sans-serif;
    
    
 }
@@ -50,6 +53,7 @@ span{
     border-radius: 5px;
     padding:2px;
     color:white;
+    
 }
 .bttn{
     margin-right:1%;
