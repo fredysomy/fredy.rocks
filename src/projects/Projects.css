@@ -19,6 +19,7 @@
     border-radius: 20px;
     display: flex;
     flex-direction: row;
+    margin-bottom:2%;
    
    
 }
@@ -51,7 +52,7 @@ span{
     color:white;
 }
 .bttn{
-    margin:1%;
+    margin-right:1%;
 }
 @media all and (max-width:700px){
     .maindiv{
