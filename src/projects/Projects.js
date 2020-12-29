@@ -11,7 +11,7 @@ export default class Projects extends Component{
                 <img className="img-div" src="https://drive.google.com/uc?export=view&id=1CWP-yFwqgy2HKbbHctxHbOW63hwJ4oqX"/>
                 <div className="content-div">
                         <h3>
-                            MarkdonwIt
+                            MarkdownIt
                         </h3>
                         <p>
                             Efficient Code Editor to live render Markdown and save as Markdown,Html and Pdf + Instant Hosting in The Web.
@@ -27,7 +27,7 @@ export default class Projects extends Component{
                 </div>
             </div>
             <div className="maindiv">
-                <img className="img-div" src="https://drive.google.com/uc?export=view&id=1CWP-yFwqgy2HKbbHctxHbOW63hwJ4oqX"/>
+                <img className="img-div" src="https://raw.githubusercontent.com/fredysomy/pysonDB/master/images/file2son.png?token=APXKHAH6EDEJ7RUG3QOD2OC7ZHQZG"/>
                 <div className="content-div">
                         <h3>
                             PysonDB
