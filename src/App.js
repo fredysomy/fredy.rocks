@@ -3,7 +3,8 @@ import './App.css';
 import Mainbody from './components/Mainbody'
 import Header from './components/Header'
 import Particles from 'react-particles-js';
-import Projects from './projects/Projects'
+import Projects from './projects/Projects';
+import Downloads from './donwloads/Downloads';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
                     
                 </Route>
                 <Route exact path="/projects" component={Projects} />
+                <Route exact path="/downloads" component={Downloads} />
             </Switch>
         </div>
     </Router>

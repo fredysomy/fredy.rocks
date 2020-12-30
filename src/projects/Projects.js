@@ -26,6 +26,7 @@ export default class Projects extends Component{
                         </p>
                         <button className="btn btn-outline-primary btn-sm bttn">Source Code</button>
                         <button className="btn btn-outline-primary btn-sm bttn">Documentation</button>
+                        <a href=""><button class="btn btn-outline-primary btn-sm"><i class="fas fa-cloud-download-alt"></i></button></a>
                 </div>
             </div>
             <div className="maindiv">
@@ -85,6 +86,72 @@ export default class Projects extends Component{
                         
                         <p id="tech">
                             Python  , Fire , Deta
+                        </p>
+                        <button className="btn btn-outline-primary btn-sm bttn">Source Code</button>
+                        <button className="btn btn-outline-primary btn-sm bttn">Documentation</button>
+                </div>
+            </div>
+            <div className="maindiv">
+                <img className="img-div" src="https://raw.githubusercontent.com/fredysomy/CsvToDeta/main/images/20201203_215247_0000~2.png"/>
+                <div className="content-div">
+                        <h3>
+                            <b>
+                            gitscrpy <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/fredysomy/gitscrpy?style=for-the-badge"></img>
+                            </b>
+                        </h3>
+                        <p>
+                           A simple snake python package to scrape Github user repositories and some user details.
+                        </p>
+                        
+                        
+                        <p id="tech">
+                            Python  , Fire 
+                        </p>
+                        <button className="btn btn-outline-primary btn-sm bttn">Source Code</button>
+                        <button className="btn btn-outline-primary btn-sm bttn">Documentation</button>
+                </div>
+            </div>
+            <div className="maindiv">
+                <img className="img-div" src="https://raw.githubusercontent.com/fredysomy/CsvToDeta/main/images/20201203_215247_0000~2.png"/>
+                <div className="content-div">
+                        <h3>
+                            <b>
+                            Blogitn0w <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/fredysomy/Blogitn0w?style=for-the-badge"></img>
+                            </b>
+                        </h3>
+                        <p>
+                           A simple Blog App made with Node,Express,MongoDb.
+                        </p>
+                        <p>
+                            Users can write blogs and have a dashboard where they can edit,create new blogs , change password and edit bio.
+                        </p>
+
+                        
+                        <p id="tech">
+                            Node , Express JS , MongoDB  
+                        </p>
+                        <button className="btn btn-outline-primary btn-sm bttn">Source Code</button>
+                        <button className="btn btn-outline-primary btn-sm bttn">Documentation</button>
+                </div>
+            </div>
+            <div className="maindiv">
+                <img className="img-div" src="https://raw.githubusercontent.com/fredysomy/CsvToDeta/main/images/20201203_215247_0000~2.png"/>
+                <div className="content-div">
+                        <h3>
+                            <b>
+                            Todo-App <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/fredysomy/Todo-App?style=for-the-badge"></img>
+                            </b>
+                        </h3>
+                        <p>
+                          A simple ToDo app which you can add to your homescreen and works perfectly in offline mode.
+                        </p>
+                        <p>
+                            Made to learn React JS
+                        </p>
+
+                        
+                        <p id="tech">
+                           ReactJS  
                         </p>
                         <button className="btn btn-outline-primary btn-sm bttn">Source Code</button>
                         <button className="btn btn-outline-primary btn-sm bttn">Documentation</button>

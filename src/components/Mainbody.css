@@ -29,8 +29,8 @@ margin: 3% 1.5%;
   
   margin-top: 22vh;
  background: #1e2333;
- box-shadow:  5px 5px 10px #0c0e14,
-             -5px -5px 10px #303852;
+ box-shadow:  4px 4px 10px #0c0e14,
+             -4px -4px 10px #303852;
   width: 400px;
   height: 400px;
 }
@@ -74,6 +74,7 @@ color:white;
   #divmain{
     display: flex;
     flex-direction: column;
+    height: fit-content;
   }
   #imgme{
      border-radius: 25%;

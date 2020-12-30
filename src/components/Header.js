@@ -17,20 +17,22 @@ export default class Header extends Component{
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-     <Link to='/'>
-      <li class="nav-item">
+     <Link to='/'  style={{ textDecoration: 'none' }}>
+      <li id="abc" class="nav-item">
         <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">About</a>
       </li>
 </Link>
-     <Link to='/projects'>
-      <li class="nav-item">
+     <Link to='/projects'  style={{ textDecoration: 'none' }}>
+      <li  id="abc" class="nav-item">
         <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Projects</a>
       </li>
       </Link>
-       <li class="nav-item">
-        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Skills</a>
+      <Link to="/downloads">
+       <li id="abc" class="nav-item">
+        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Downloads</a>
       </li>
-       <li class="nav-item">
+      </Link>
+       <li id="abc" class="nav-item">
         <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Contact</a>
       </li>
       
