@@ -24,8 +24,8 @@ export default class Projects extends Component{
                         <p id="tech">
                             Electron JS , HTML,CSS , JavaScript
                         </p>
-                        <button className="btn btn-primary btn-sm bttn">Source Code</button>
-                        <button className="btn btn-primary btn-sm bttn">Documentation</button>
+                        <button className="btn btn-outline-primary btn-sm bttn">Source Code</button>
+                        <button className="btn btn-outline-primary btn-sm bttn">Documentation</button>
                 </div>
             </div>
             <div className="maindiv">
@@ -45,8 +45,8 @@ export default class Projects extends Component{
                         <p id="tech">
                             Python
                         </p>
-                        <button className="btn btn-primary btn-sm bttn">Source Code</button>
-                        <button className="btn btn-primary btn-sm bttn">Documentation</button>
+                        <button className="btn btn-outline-primary btn-sm bttn">Source Code</button>
+                        <button className="btn btn-outline-primary btn-sm bttn">Documentation</button>
                 </div>
             </div>
             <div className="maindiv">
@@ -64,8 +64,8 @@ export default class Projects extends Component{
                         <p id="tech">
                             Python  PyQt5 
                         </p>
-                        <button className="btn btn-primary btn-sm bttn">Source Code</button>
-                        <button className="btn btn-primary btn-sm bttn">Documentation</button>
+                        <button className="btn btn-outline-primary btn-sm bttn">Source Code</button>
+                        <button className="btn btn-outline-primary btn-sm bttn">Documentation</button>
                 </div>
             </div>
              <div className="maindiv">
@@ -86,8 +86,8 @@ export default class Projects extends Component{
                         <p id="tech">
                             Python  , Fire , Deta
                         </p>
-                        <button className="btn btn-primary btn-sm bttn">Source Code</button>
-                        <button className="btn btn-primary btn-sm bttn">Documentation</button>
+                        <button className="btn btn-outline-primary btn-sm bttn">Source Code</button>
+                        <button className="btn btn-outline-primary btn-sm bttn">Documentation</button>
                 </div>
             </div>
      
