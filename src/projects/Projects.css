@@ -21,7 +21,7 @@
     flex-direction: row;
     margin:3%;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 19px 38px rgba(0,0,0,0.30);
-    border: 0.5px solid cyan;
+    border: 0.2px solid cyan;
    
 }
 
@@ -61,7 +61,7 @@ span{
 @media all and (max-width:700px){
     .maindiv{
         flex-direction: column;
-        width:95%;
+        width:90%;
         border-radius: 10px;
         margin:3% auto;
     }
