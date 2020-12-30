@@ -5,7 +5,9 @@
 }
 .navbar-dark .navbar-toggler {
    
- border-image-source: linear-gradient(to right, cyan, #deeb34);
- border-image-slice: 1;
+ border-radius:5px;
 
+background: #1e2333;
+box-shadow:  5px 5px 10px #0c0e14,
+             -5px -5px 10px #303852;
 }
