@@ -26,9 +26,11 @@ margin: 3% 1.5%;
 #imgme{
   border-radius: 25%;
   margin-left: 18%;
-  filter: drop-shadow(5px 5px cyan); 
+  
   margin-top: 22vh;
- 
+ background: #1e2333;
+ box-shadow:  5px 5px 10px #0c0e14,
+             -5px -5px 10px #303852;
   width: 400px;
   height: 400px;
 }
