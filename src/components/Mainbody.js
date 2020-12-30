@@ -6,7 +6,7 @@ export default class Mainbody extends Component{
   render(){
     return(
       <div id="divmain" style={{ position: 'relative', overflow: "hidden" }}>
-          <div style={{ position: 'absolute'}}>
+          <div style={{ position: 'absolute',z-index :'-2'}}>
         <Particles height="100vh" width="100vw" />
       </div>
         <img id="imgme" src="https://avatars2.githubusercontent.com/u/65971072?s=460&u=dd6ae329cb0a04cbddc6c0959a924ceeac62bf02&v=4"/>
