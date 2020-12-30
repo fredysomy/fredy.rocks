@@ -21,7 +21,7 @@
     flex-direction: row;
     margin:3%;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 19px 38px rgba(0,0,0,0.30);
-   
+    border: 0.5px solid cyan;
    
 }
 
@@ -63,7 +63,7 @@ span{
         flex-direction: column;
         width:95%;
         border-radius: 10px;
-        margin:2% auto;
+        margin:3% auto;
     }
     .img-div{
         margin:2% auto;
