@@ -18,7 +18,7 @@ export default class Header extends Component{
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
      <Link to='/'>
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">About</a>
       </li>
 </Link>
@@ -28,10 +28,10 @@ export default class Header extends Component{
       </li>
       </Link>
        <li class="nav-item">
-        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"href="#">Skills</a>
+        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Skills</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#">Contact</a>
+        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Contact</a>
       </li>
       
     </ul>
