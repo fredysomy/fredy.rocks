@@ -51,8 +51,8 @@ margin: 3% 1.5%;
    justify-content: space-around;
    margin-left:20px;
   background: #1e2333;
-  box-shadow:  5px 5px 10px #0c0e14,
-             -5px -5px 10px #303852;
+  box-shadow:  3px 3px 6px #0c0e14,
+             -3px -3px 6px #303852;
 }   
    
 .resume{
