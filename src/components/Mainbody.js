@@ -5,9 +5,9 @@ export default class Mainbody extends Component{
     
   render(){
     return(
-      <Particles>
+      
       <div id="divmain" style={{ position: 'relative', overflow: "hidden" }}>
-          
+          <Particles style={{z-index:-3}} />
         <img id="imgme" src="https://avatars2.githubusercontent.com/u/65971072?s=460&u=dd6ae329cb0a04cbddc6c0959a924ceeac62bf02&v=4"/>
         <div  id="det">
           <h1 id ="name">Hi I am <font color="cyan">
@@ -32,7 +32,7 @@ export default class Mainbody extends Component{
         <hr/>
         
       </div>
-</Particles>
+
       
     )
 
