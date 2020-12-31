@@ -4,8 +4,8 @@ nav {
 background-color: #1e2333 !important;
 }
 .navbar-dark .navbar-nav .nav-link{
-    box-shadow:  5px 5px 10px #0c0e14,
-             -5px -5px 10px #303852;
+    box-shadow: 2px 2px 4px #0c0e14,
+             -2px -2px 4px #303852;
 
 }
 .navbar-nav .nav-link {
