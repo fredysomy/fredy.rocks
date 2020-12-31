@@ -7,31 +7,25 @@ import Projects from './projects/Projects';
 import Downloads from './donwloads/Downloads';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 function App() {
-    if (window.location.host.split('.')[0] == "projects"){
-        return(
+    return(
+        <Router>
+        <div className="App">
+        <Header/>
+            <Switch>
+                <Route exact path="/">
+                    
+                <Mainbody />
            
-            <Router>
-                 <div className="App">
-                <Header/>
-                <Projects/>
-                </div>
-            </Router>
-           
-        )
-
-    }
-    else {
-        return(
-           
-            <Router>
-                 <div className="App">
-                <Header/>
-                <Mainbody/>
-                </div>
-            </Router>
-           
-        )
-    }
+               
+                    
+                    
+                </Route>
+                
+                <Route exact path="/downloads" component={Downloads} />
+            </Switch>
+        </div>
+    </Router>
+    )
   
 }
 
