@@ -29,8 +29,8 @@ margin: 3% 1.5%;
   
   margin-top: 22vh;
  background: #1e2333;
- box-shadow:  4px 4px 10px #0c0e14,
-             -4px -4px 10px #303852;
+ box-shadow:  3px 3px 9px #0c0e14,
+             -3px -3px 9px #303852;
   width: 400px;
   height: 400px;
 }
@@ -51,8 +51,8 @@ margin: 3% 1.5%;
    justify-content: space-around;
    margin-left:20px;
   background: #1e2333;
-  box-shadow:  3px 3px 6px #0c0e14,
-             -3px -3px 6px #303852;
+  box-shadow:  2px 2px 4px #0c0e14,
+             -2px -2px 4px #303852;
 }   
    
 .resume{
