@@ -17,16 +17,16 @@ export default class Header extends Component{
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-     <Link to='/'  style={{ textDecoration: 'none' }}>
+     
       <li id="abc" class="nav-item">
-        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">About</a>
+        <a href="https://fredy.rocks/" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">About</a>
       </li>
-</Link>
-     <Link to='/projects'  style={{ textDecoration: 'none' }}>
+
+     
       <li  id="abc" class="nav-item">
-        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Projects</a>
+        <a href="https://projects.fredy.rocks/" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Projects</a>
       </li>
-      </Link>
+      
       <Link to="/downloads">
        <li id="abc" class="nav-item">
         <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Downloads</a>
