@@ -19,7 +19,7 @@
     background-color: #3a415e;
     display: flex;
     flex-direction: row !important;
-    margin:3%;
+    margin:3% auto;
     border-radius:10px;
     background: #1e2333;
 box-shadow:  3px 3px 9px #0c0e14,
