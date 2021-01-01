@@ -19,12 +19,12 @@ export default class Header extends Component{
     <ul class="navbar-nav mr-auto">
      
       <li id="abc" class="nav-item">
-        <a href="https://fredy.rocks/" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">About</a>
+        <a href="https://fredy.rocks/" class="nav-link">About</a>
       </li>
 
      
       <li  id="abc" class="nav-item">
-        <a href="https://projects.fredy.rocks/" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Projects</a>
+        <a href="https://projects.fredy.rocks/" class="nav-link">Projects</a>
       </li>
       
       <Link to="/downloads">
