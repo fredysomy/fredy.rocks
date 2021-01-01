@@ -7,36 +7,28 @@ import Projects from './projects/Projects';
 import Downloads from './donwloads/Downloads';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 function App() {
-    //return(
-     //   <Router>
-       // <div className="App">
-      //  <Header/>
-       //     <Switch>
-        //        <Route exact path="/">
-       //             
-      //          <Mainbody />
-      //     
-      //         
-     //               
-      //              
-       //         </Route>
-//                
- //               <Route exact path="/downloads" component={Downloads} />
-  //          </Switch>
-   //     </div>
-    //</Router>
-    //)
-
-
-    
+   // return(
+      // <Router>
+     // <div className="App">
+    //  <Header/>
+     //     <Switch>
+      //        <Route exact path="/">
+      //            <Projects/>
+      //            </Route>
+     //          <Route exact path="/downloads" component={Downloads} />
+     //     </Switch>
+    //  </div>
+  //  </Router>
+  //  )
+        
 if (window.location.host.split('.')[0] == "projects"){
         return(
            
             <Router>
-                 <div className="App">
+                 
                 <Header/>
                 <Projects/>
-                </div>
+                
             </Router>
            
         )
@@ -67,6 +59,8 @@ return(
         )
     }
   
+
+
 }
 
 export default App;

@@ -3,6 +3,7 @@
 
 #main{
     margin:5% auto;
+
     
 }
 
@@ -13,11 +14,11 @@
 }
 
 .maindiv{
-    width:70vw;
+    width:80vw;
     height:fit-content;
     background-color: #3a415e;
     display: flex;
-    flex-direction: row;
+    flex-direction: row !important;
     margin:3%;
     border-radius:10px;
     background: #1e2333;
@@ -37,7 +38,7 @@ box-shadow:  3px 3px 9px #0c0e14,
 .content-div{
    margin: 2%;
     height:90%;
-    width: 40%;
+    width: 30%;
     text-align: left;
     color: white;
      font-family: 'Nanum Gothic', sans-serif;
@@ -62,7 +63,7 @@ span{
 }
 @media all and (max-width:700px){
     .maindiv{
-        flex-direction: column;
+        flex-direction: column !important;
         width:90%;
         border-radius: 10px;
         margin:4% auto;
