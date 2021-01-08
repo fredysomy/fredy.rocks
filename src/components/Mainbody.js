@@ -22,6 +22,7 @@ export default class Mainbody extends Component{
 <a href="https://twitter.com/FredySomy"><i id="we" class="fab fa-twitter-square fa-2x"></i></a>
 <a href="https://github.com/fredysomy"><i id="we" class="fab fa-github-square fa-2x"></i></a>
 <a href="mailto:fredysomy@gmail.com"><i id="we" class="far fa-envelope fa-2x"></i></a>
+<a href="https://angel.co/u/fredy-somy"><i class="fab fa-angellist"></i></a>
         </div>
         <div id="buttonref">
          <button class="btn btn-outline-info resume">Hire Me</button>
