@@ -31,10 +31,7 @@ export default class Contact extends Component{
   headers: {
     "Content-Type": "application/json; charset=utf-8",
     "emails": "fredysomy02@gmail.com"
-  },
-  credentials: "same-origin",
-  mode:"no-cors"
-
+  }
 
 })
   }
