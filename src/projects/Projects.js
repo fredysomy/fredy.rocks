@@ -26,9 +26,9 @@ export default class Projects extends Component{
                         <p id="tech">
                             Electron JS , HTML,CSS , JavaScript
                         </p>
-                        <button className="btn btn-outline-primary btn-sm bttn">Source Code</button>
-                        <button className="btn btn-outline-primary btn-sm bttn">Documentation</button>
-                        <a href=""><button class="btn btn-outline-primary btn-sm"><i class="fas fa-cloud-download-alt"></i></button></a>
+                        <a href="https://github.com/fredysomy/MarkdownIt"><button className="btn btn-outline-primary btn-sm bttn">Source Code</button></a>
+                         <a href="https://markdownitweb.herokuapp.com/"><button className="btn btn-outline-primary btn-sm bttn">Documentation</button></a>
+                        <a href="https://github.com/fredysomy/MarkdownIt/releases"><button class="btn btn-outline-primary btn-sm"><i class="fas fa-cloud-download-alt"></i></button></a>
                 </div>
             </div>
             <div className="maindiv">
@@ -48,8 +48,8 @@ export default class Projects extends Component{
                         <p id="tech">
                             Python
                         </p>
-                        <button className="btn btn-outline-primary btn-sm bttn">Source Code</button>
-                        <button className="btn btn-outline-primary btn-sm bttn">Documentation</button>
+                         <a href="https://github.com/fredysomy/pysonDB"><button className="btn btn-outline-primary btn-sm bttn">Source Code</button></a>
+                         <a href="https://fredysomy.me/pysonDB/"><button className="btn btn-outline-primary btn-sm bttn">Documentation</button></a>
                 </div>
             </div>
             <div className="maindiv">
@@ -67,8 +67,9 @@ export default class Projects extends Component{
                         <p id="tech">
                             Python  PyQt5 
                         </p>
-                        <button className="btn btn-outline-primary btn-sm bttn">Source Code</button>
-                        <button className="btn btn-outline-primary btn-sm bttn">Documentation</button>
+                         <a href="https://github.com/fredysomy/HealthApp"><button className="btn btn-outline-primary btn-sm bttn">Source Code</button></a>
+                         <a href="https://github.com/fredysomy/HealthApp#readme"><button className="btn btn-outline-primary btn-sm bttn">Documentation</button></a>
+            <a href=""><button class="btn btn-outline-primary btn-sm"><i class="fas fa-cloud-download-alt"></i></button></a>
                 </div>
             </div>
              <div className="maindiv">
@@ -89,8 +90,8 @@ export default class Projects extends Component{
                         <p id="tech">
                             Python  , Fire , Deta
                         </p>
-                        <button className="btn btn-outline-primary btn-sm bttn">Source Code</button>
-                        <button className="btn btn-outline-primary btn-sm bttn">Documentation</button>
+                         <a href="https://github.com/fredysomy/CsvToDeta"><button className="btn btn-outline-primary btn-sm bttn">Source Code</button></a>
+                         <a href="https://pypi.org/project/csvtodeta/"><button className="btn btn-outline-primary btn-sm bttn">Documentation</button></a>
                 </div>
             </div>
             <div className="maindiv">
@@ -109,8 +110,8 @@ export default class Projects extends Component{
                         <p id="tech">
                             Python  , Fire 
                         </p>
-                        <button className="btn btn-outline-primary btn-sm bttn">Source Code</button>
-                        <button className="btn btn-outline-primary btn-sm bttn">Documentation</button>
+                         <a href="https://github.com/fredysomy/gitscrpy"><button className="btn btn-outline-primary btn-sm bttn">Source Code</button></a>
+                         <a href="https://pypi.org/project/gitscrpy/"><button className="btn btn-outline-primary btn-sm bttn">Documentation</button></a>
                 </div>
             </div>
             <div className="maindiv">
@@ -132,8 +133,8 @@ export default class Projects extends Component{
                         <p id="tech">
                             Node , Express JS , MongoDB  
                         </p>
-                        <button className="btn btn-outline-primary btn-sm bttn">Source Code</button>
-                        <button className="btn btn-outline-primary btn-sm bttn">Documentation</button>
+                         <a href="https://github.com/fredysomy/Blogitn0w"><button className="btn btn-outline-primary btn-sm bttn">Source Code</button></a>
+                         <a href="https://blogitn0w.herokuapp.com/"><button className="btn btn-outline-primary btn-sm bttn">Website</button></a>
                 </div>
             </div>
             <div className="maindiv">
@@ -155,8 +156,8 @@ export default class Projects extends Component{
                         <p id="tech">
                            ReactJS  
                         </p>
-                        <button className="btn btn-outline-primary btn-sm bttn">Source Code</button>
-                        <button className="btn btn-outline-primary btn-sm bttn">Documentation</button>
+                         <a href="https://github.com/fredysomy/Todo-App"><button className="btn btn-outline-primary btn-sm bttn">Source Code</button></a>
+                         <a href="https://todo.fredy.rocks/"><button className="btn btn-outline-primary btn-sm bttn">Documentation</button></a>
                 </div>
             </div>
      
