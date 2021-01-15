@@ -69,7 +69,7 @@ export default class Projects extends Component{
                         </p>
                          <a href="https://github.com/fredysomy/HealthApp"><button className="btn btn-outline-primary btn-sm bttn">Source Code</button></a>
                          <a href="https://github.com/fredysomy/HealthApp#readme"><button className="btn btn-outline-primary btn-sm bttn">Documentation</button></a>
-            <a href=""><button class="btn btn-outline-primary btn-sm"><i class="fas fa-cloud-download-alt"></i></button></a>
+            <a href="https://github.com/fredysomy/HealthApp/releases/tag/0.0.0"><button class="btn btn-outline-primary btn-sm"><i class="fas fa-cloud-download-alt"></i></button></a>
                 </div>
             </div>
              <div className="maindiv">
