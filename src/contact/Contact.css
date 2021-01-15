@@ -6,7 +6,7 @@
     width:40%;
 }
 
-@media all and (max-width:700){
+@media all and (max-width:700px){
     #contact {
         width:98%;
     }

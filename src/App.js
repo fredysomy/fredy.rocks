@@ -59,7 +59,7 @@ return(
            
         )
     }
-    if (window.location.host.split('.')[2] == "gitpod") {
+    if (window.location.host.split('.')[0] == "contact") {
 return(
            
             <Router>
