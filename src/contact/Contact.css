@@ -4,10 +4,13 @@
 
 #contact {
     width:40%;
+    margin:0 auto;
 }
 
 @media all and (max-width:700px){
     #contact {
-        width:98%;
+        width:94%;
+        margin:0 auto;
+
     }
 }

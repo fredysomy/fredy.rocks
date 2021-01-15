@@ -32,7 +32,7 @@ export default class Contact extends Component{
     "Content-Type": "application/json; charset=utf-8"
   }
 
-})
+}).then(alert("Email has been Sent"))
   }
     render(){
         return(
