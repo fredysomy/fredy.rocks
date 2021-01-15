@@ -1,0 +1,13 @@
+*{
+    color:white;
+}
+
+#contact {
+    width:40%;
+}
+
+@media all and (max-width:700){
+    #contact {
+        width:98%;
+    }
+}

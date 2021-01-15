@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Particles from 'react-particles-js';
 import Projects from './projects/Projects';
 import Downloads from './donwloads/Downloads';
+import Contact from './contact/Contact'
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 function App() {
    // return(
@@ -21,7 +22,7 @@ function App() {
   //  </Router>
   //  )
         
-if (window.location.host.split('.')[0] == "projects"){
+if (window.location.host.split('.')[2] == "projects"){
         return(
            
             <Router>
@@ -53,6 +54,18 @@ return(
                  <div className="App">
                 <Header/>
                 <Mainbody/>
+                </div>
+            </Router>
+           
+        )
+    }
+    if (window.location.host.split('.')[2] == "gitpod") {
+return(
+           
+            <Router>
+                 <div className="App">
+                <Header/>
+               <Contact/>
                 </div>
             </Router>
            
