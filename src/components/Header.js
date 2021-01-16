@@ -33,7 +33,7 @@ export default class Header extends Component{
       </li>
     
        <li id="abc" class="nav-item">
-        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Contact</a>
+        <a class="nav-link" href="https://contact.fredy.rocks/">Contact</a>
       </li>
       
     </ul>
