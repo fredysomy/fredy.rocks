@@ -25,7 +25,7 @@ export default class Mainbody extends Component{
 <a href="https://angel.co/u/fredy-somy"><i id="we" class="fab fa-angellist fa-2x"></i></a>
         </div>
         <div id="buttonref">
-         <button class="btn btn-outline-info resume">Hire Me</button>
+         <a href="https://contact.fredy.rocks/"><button class="btn btn-outline-info resume">Hire Me</button></a>
         <a download href="https://drive.google.com/uc?export=view&id=1XRRQqGRqT3jK_EVNV4WSjDBRHQ8o9-rF"><button  class="btn btn-outline-info resume">Resume</button></a>
         
         </div>
