@@ -22,7 +22,7 @@ function App() {
   //  </Router>
   //  )
         
-if (window.location.host.split('.')[2] == "projects"){
+if (window.location.host.split('.')[0] == "projects"){
         return(
            
             <Router>
