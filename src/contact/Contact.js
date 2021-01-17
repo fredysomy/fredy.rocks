@@ -50,9 +50,10 @@ export default class Contact extends Component{
         <textarea placeholder="Your Message" className="form-control" rows="5" onChange={this.messageonChange.bind(this)}></textarea>
     </div>
     <button onClick={this.handleSubmit.bind(this)} type="submit" className="btn btn-primary">Submit</button>
-<hr>
+
 
 <div>
+<hr />
             <a href="https://dev.to/fredysomy" ><i class="fab fa-dev fa-2x"></i></a>
 <a href="https://linkedin.com/in/fredysomy"><i id="we" class="fab fa-linkedin fa-2x"></i></a>
 <a href="https://twitter.com/FredySomy"><i id="we" class="fab fa-twitter-square fa-2x"></i></a>
