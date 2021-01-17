@@ -1,36 +1,53 @@
-#we{
-   justify-content: space-around;
-   margin-left:20px;
+#we {
+  justify-content: space-around;
+  margin-left: 20px;
   background: #1e2333;
-  box-shadow:  2px 2px 4px #0c0e14,
-             -2px -2px 4px #303852;
+  box-shadow: 2px 2px 4px #0c0e14, -2px -2px 4px #303852;
 }
-.form-group{
-background-color:#224564;
-color:white;
+.form-group {
+  background-color: #224564;
+  color: white;
+}
+#main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 #contact {
-    width:40%;
-    margin:0 auto;
-padding:3%;
-    height:fit-content;
-    background-color: #3a415e;
-    margin:3% auto !important;
-    border-radius:10px;
-    background: #1e2333;
-    box-shadow:  3px 3px 9px #0c0e14,
-             -4px -3px 9px #303852;
+  width: 30%;
+  margin: 0 auto;
+  padding: 3%;
+  height: fit-content;
+  background-color: #3a415e;
+  margin: 3% auto !important;
+  border-radius: 10px;
+  background: #1e2333;
+  box-shadow: 3px 3px 9px #0c0e14, -4px -3px 9px #303852;
+}
+#stufboutme {
+  width: 40%;
+  margin: 0 auto;
+  padding: 3%;
+  height: fit-content;
+  background-color: #3a415e;
+  margin: 3% auto !important;
+  border-radius: 10px;
+  background: #1e2333;
+  box-shadow: 3px 3px 9px #0c0e14, -4px -3px 9px #303852;
+}
+li {
+  color: white;
+  text-align: left;
 }
 
-@media all and (max-width:700px){
-    #contact {
-        width:94%;
-        margin:0 auto;
-
-    }
+@media all and (max-width: 700px) {
+  #contact {
+    width: 94%;
+    margin: 0 auto;
+  }
+  #stufboutme {
+    width: 94%;
+    margin: 0 auto;
+  }
 }
-
-
-    
-    
-   

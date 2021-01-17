@@ -1,99 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Indie+Flower&family=Nunito:ital,wght@0,200;0,800;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
-body{
- background-color: #1e2333;
- z-index: 3;
- 
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Indie+Flower&family=Nunito:ital,wght@0,200;0,800;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+body {
+  background-color: #1e2333;
+  z-index: 3;
 }
-#divmain{
-    height:95vh;
+#divmain {
+  height: 95vh;
 }
-#desc{
-    font-family: 'Nanum Gothic', sans-serif;
+#desc {
+  font-family: "Nanum Gothic", sans-serif;
 }
-#namelight{
-    color:red;
+#namelight {
+  color: red;
 }
-.btn{
-     
-    border-radius: 5px;
-   
+.btn {
+  border-radius: 5px;
 }
-#buttonref button{
-margin: 3% 1.5%;
-
+#buttonref button {
+  margin: 3% 1.5%;
 }
-#imgme{
+#imgme {
   border-radius: 25%;
   margin-left: 18%;
-  
+
   margin-top: 22vh;
- background: #1e2333;
- box-shadow:  3px 3px 9px #0c0e14,
-             -3px -3px 9px #303852;
+  background: #1e2333;
+  box-shadow: 3px 3px 9px #0c0e14, -3px -3px 9px #303852;
   width: 400px;
   height: 400px;
 }
-#divmain{
+#divmain {
   display: flex;
   flex-direction: row;
-
 }
-#det{
+#det {
   align-items: left;
-  width:30%;
-   margin-top: 25vh;
+  width: 30%;
+  margin-top: 25vh;
 
-    margin-left: 10%;
-    color:white;
+  margin-left: 10%;
+  color: white;
 }
-#we{
-   justify-content: space-around;
-   margin-left:20px;
+#we {
+  justify-content: space-around;
+  margin-left: 20px;
   background: #1e2333;
-  box-shadow:  2px 2px 4px #0c0e14,
-             -2px -2px 4px #303852;
-}   
-   
-.resume{
-    margin:5% 0;
+  box-shadow: 2px 2px 4px #0c0e14, -2px -2px 4px #303852;
 }
 
-#name{
-  font-family: 'Nanum Gothic', sans-serif;
-  color:white;
-
+.resume {
+  margin: 5% 0;
 }
 
-.sub{
-font-family: 'Nunito', sans-serif;
-color:white;
+#name {
+  font-family: "Nanum Gothic", sans-serif;
+  color: white;
 }
-@media screen and (max-width:800px) {
 
-  #divmain{
+.sub {
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
+@media screen and (max-width: 800px) {
+  #divmain {
     display: flex;
     flex-direction: column;
     height: fit-content;
   }
-  #imgme{
-     border-radius: 25%;
+  #imgme {
+    border-radius: 25%;
     margin: 0 auto;
-     width: 230px;
+    width: 230px;
     height: 230px;
     margin-top: 5vh;
   }
-  #det{
-   margin-top: 6vh;
+  #det {
+    margin-top: 6vh;
     margin-left: auto;
-    margin-right:auto;
-    width:97%;
-    
-}
-#det h5{
-  font-size: 18px;
-}
-#name{
-  font-size: 35px;
-}
+    margin-right: auto;
+    width: 97%;
+  }
+  #det h5 {
+    font-size: 18px;
+  }
+  #name {
+    font-size: 35px;
+  }
 }
