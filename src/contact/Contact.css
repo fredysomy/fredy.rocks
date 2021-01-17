@@ -5,7 +5,10 @@
   box-shadow:  2px 2px 4px #0c0e14,
              -2px -2px 4px #303852;
 }
-
+.form-group{
+background-color:#224564;
+color:white;
+}
 #contact {
     width:40%;
     margin:0 auto;
