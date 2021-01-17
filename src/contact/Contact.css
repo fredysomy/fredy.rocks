@@ -5,8 +5,6 @@
     margin:0 auto;
     height:fit-content;
     background-color: #3a415e;
-    display: flex;
-    flex-direction: row !important;
     margin:3% auto !important;
     border-radius:10px;
     background: #1e2333;
