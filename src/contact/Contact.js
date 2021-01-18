@@ -29,7 +29,7 @@ export default class Contact extends Component {
       headers: {
         "Content-Type": "application/json; charset=utf-8",
       },
-    }).then();
+    }).then($('#exampleModal').modal('show'));
   }
   render() {
     return (
