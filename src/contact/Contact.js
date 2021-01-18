@@ -25,11 +25,11 @@ export default class Contact extends Component {
     event.preventDefault();
     fetch("https://3trd25.deta.dev/email", {
       method: "POST",
-      body: JSON.stringify({ emails: this.state.email }),
+      body: JSON.stringify({ emails: this.state }),
       headers: {
         "Content-Type": "application/json; charset=utf-8",
       },
-    }).then($('#exampleModal').modal('show'));
+    }).then(window.$("#exampleModal").modal("show"));
   }
   render() {
     return (
@@ -38,6 +38,7 @@ export default class Contact extends Component {
           <h3 id="head">Contact Me</h3>
           <div className="form-group">
             <input
+              required
               placeholder="Name"
               type="text"
               className="form-control"
@@ -108,23 +109,16 @@ export default class Contact extends Component {
           </div>
           <div>
             <hr />
-            <a href="https://dev.to/fredysomy">
-              <i class="fab fa-dev fa-2x"></i>
-            </a>
+
             <a href="https://linkedin.com/in/fredysomy">
               <i id="we" class="fab fa-linkedin fa-2x"></i>
             </a>
             <a href="https://twitter.com/FredySomy">
               <i id="we" class="fab fa-twitter-square fa-2x"></i>
             </a>
-            <a href="https://github.com/fredysomy">
-              <i id="we" class="fab fa-github-square fa-2x"></i>
-            </a>
+
             <a href="mailto:fredysomy@gmail.com">
               <i id="we" class="far fa-envelope fa-2x"></i>
-            </a>
-            <a href="https://angel.co/u/fredy-somy">
-              <i id="we" class="fab fa-angellist fa-2x"></i>
             </a>
           </div>
         </div>
