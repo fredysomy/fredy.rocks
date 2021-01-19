@@ -7,6 +7,14 @@ body {
 #divmain {
   height: 95vh;
 }
+#part {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
 #desc {
   font-family: "Nanum Gothic", sans-serif;
 }

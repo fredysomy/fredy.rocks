@@ -4,9 +4,14 @@
   background: #1e2333;
   box-shadow: 2px 2px 4px #0c0e14, -2px -2px 4px #303852;
 }
-.form-group {
-  background-color: #224564;
-  color: white;
+input,
+textarea {
+  background-color: #303852 !important;
+  color: white !important;
+  border: 0px;
+}
+.form-control {
+  border: none !important;
 }
 #main {
   width: 100%;
@@ -39,6 +44,14 @@
 li {
   color: white;
   text-align: left;
+}
+#part {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
 }
 
 @media all and (max-width: 700px) {

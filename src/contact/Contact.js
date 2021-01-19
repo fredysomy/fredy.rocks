@@ -2,7 +2,7 @@ import react, { Component } from "react";
 import "./Contact.css";
 import axios from "axios";
 import $ from "jquery";
-import Particles from 'react-particles-js';
+import Particles from "react-particles-js";
 
 export default class Contact extends Component {
   constructor(props) {
@@ -35,8 +35,34 @@ export default class Contact extends Component {
   render() {
     return (
       <div id="main">
-       <Particles>
         <div id="contact">
+          <Particles
+            params={{
+              particles: {
+                number: {
+                  value: 80,
+                  density: {
+                    enable: true,
+                    value_area: 800,
+                  },
+                  opacity: {
+                    value: 0.5,
+                    random: false,
+                    anim: {
+                      enable: false,
+                      speed: 1,
+                      opacity_min: 0.1,
+                      sync: false,
+                    },
+                  },
+                },
+                line_linked: {
+                  enable: false,
+                },
+              },
+            }}
+            id="part"
+          />
           <h3 id="head">Contact Me</h3>
           <div className="form-group">
             <input
@@ -130,7 +156,6 @@ export default class Contact extends Component {
             <li>Passionate Web Developer</li>
           </ul>
         </div>
-       </Particles>
       </div>
     );
   }
