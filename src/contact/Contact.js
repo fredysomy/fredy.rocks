@@ -35,7 +35,7 @@ export default class Contact extends Component {
   render() {
     return (
       <div id="main">
-       <Particles style={{z-index:"-3"}}>
+       <Particles>
         <div id="contact">
           <h3 id="head">Contact Me</h3>
           <div className="form-group">
