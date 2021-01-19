@@ -2,6 +2,7 @@ import react, { Component } from "react";
 import "./Contact.css";
 import axios from "axios";
 import $ from "jquery";
+import Particles from 'react-particles-js';
 
 export default class Contact extends Component {
   constructor(props) {
@@ -34,6 +35,7 @@ export default class Contact extends Component {
   render() {
     return (
       <div id="main">
+       <Particles style={{z-index:"-3"}}>
         <div id="contact">
           <h3 id="head">Contact Me</h3>
           <div className="form-group">
@@ -128,6 +130,7 @@ export default class Contact extends Component {
             <li>Passionate Web Developer</li>
           </ul>
         </div>
+       </Particles>
       </div>
     );
   }
