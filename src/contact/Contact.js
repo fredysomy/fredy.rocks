@@ -25,7 +25,7 @@ export default class Contact extends Component {
     event.preventDefault();
     fetch("https://3trd25.deta.dev/email", {
       method: "POST",
-      body: JSON.stringify({ emails: this.state }),
+      body: JSON.stringify({ emails: this.state.email }),
       headers: {
         "Content-Type": "application/json; charset=utf-8",
       },
