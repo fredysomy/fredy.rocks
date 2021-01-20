@@ -6,7 +6,7 @@ export default class Projects extends Component {
     return (
       <div id="main">
         <h3 id="head" align="center">
-          My{" "}
+          My
           <u>
             <font color="cyan">Projects</font>
           </u>
