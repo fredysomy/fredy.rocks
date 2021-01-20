@@ -9,13 +9,13 @@ export default class Mainbody extends Component {
           params={{
             particles: {
               number: {
-                value: 80,
+                value: 90,
                 density: {
                   enable: true,
                   value_area: 800,
                 },
                 opacity: {
-                  value: 0.5,
+                  value: 0.8,
                   random: false,
                   anim: {
                     enable: false,
