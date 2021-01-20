@@ -63,7 +63,7 @@ export default class Contact extends Component {
             }}
             id="part"
           />
-          <h3 id="head">Contact Me</h3>
+          <h3 id="head"><font color="cyan">Contact Me</font></h3>
           <div className="form-group">
             <input
               required
@@ -139,7 +139,7 @@ export default class Contact extends Component {
             <hr />
 
             <a href="https://linkedin.com/in/fredysomy">
-              <i id="we" class="fab fa-linkedin fa-2x"></i>
+              <i class="fab fa-linkedin fa-2x"></i>
             </a>
             <a href="https://twitter.com/FredySomy">
               <i id="we" class="fab fa-twitter-square fa-2x"></i>
@@ -151,10 +151,105 @@ export default class Contact extends Component {
           </div>
         </div>
         <div id="stufboutme">
-          <h3 id="head">My Skills</h3>
-          <ul>
-            <li>Passionate Web Developer</li>
-          </ul>
+          <h3 id="head"><font color="cyan">Services I offer</font></h3>
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    <i class="fas fa-layer-group"></i> Full Stack Developemt
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">sd</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    <i class="fas fa-desktop"></i> Desktop Apps
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">sd</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    <i class="fab fa-html5"></i> FrontEnd Development
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">sd</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    <i class="fas fa-layer-group"></i> Full Stack Developemt
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">sdsd</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );

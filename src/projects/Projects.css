@@ -8,8 +8,16 @@
 #head {
   font-family: "Comfortaa", cursive;
   color: white;
-  margin-bottom: 5%;
+  margin-top: 3%;
   text-align: center !important;
+}
+#part {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
 }
 
 .maindiv {
@@ -18,7 +26,7 @@
   background-color: #3a415e;
   display: flex;
   flex-direction: row !important;
-  margin: 3% auto !important;
+  margin: 1.5% auto !important;
   border-radius: 10px;
   background: #1e2333;
   box-shadow: 3px 3px 9px #0c0e14, -4px -3px 9px #303852;

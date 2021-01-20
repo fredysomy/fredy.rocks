@@ -30,4 +30,37 @@ nav {
   outline: none !important;
   background: #1e2333;
   box-shadow: 2px 2px 4px #0c0e14, -2px -2px 4px #303852;
+  animation-name: navicon;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes navicon {
+  0% {
+    box-shadow: 1px 1px 2px #0c0e14, -1px -1px 2px #303852;
+  }
+  15% {
+    box-shadow: 2px 2px 4px #0c0e14, -2px -2px 4px #303852;
+  }
+  25% {
+    box-shadow: 3px 3px 6px #0c0e14, -3px -3px 6px #303852;
+  }
+  35% {
+    box-shadow: 4px 4px 8px #0c0e14, -4px -4px 8px #303852;
+  }
+  50% {
+    box-shadow: 5px 5px 10px #0c0e14, -5px -5px 10px #303852;
+  }
+  65% {
+    box-shadow: 4px 4px 8px #0c0e14, -4px -4px 8px #303852;
+  }
+  75% {
+    box-shadow: 3px 3px 6px #0c0e14, -3px -3px 6px #303852;
+  }
+  85% {
+    box-shadow: 2px 2px 4px #0c0e14, -2px -2px 4px #303852;
+  }
+  99% {
+    box-shadow: 1px 1px 2px #0c0e14, -1px -1px 2px #303852;
+  }
 }

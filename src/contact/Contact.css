@@ -6,12 +6,24 @@
 }
 input,
 textarea {
-  background-color: #303852 !important;
+  background-color: #1e2333 !important;
   color: white !important;
   border: 0px;
 }
 .form-control {
   border: none !important;
+  box-shadow: inset 3px 3px 6px #0c0e14, inset -3px -3px 6px #303852;
+}
+#holdskills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#skills {
+  width: 40%;
+  height: 100px;
+  background-color: rgb(255, 75, 210);
+  margin: 3% auto;
 }
 #main {
   width: 100%;
@@ -25,18 +37,18 @@ textarea {
   padding: 3%;
   height: fit-content;
   background-color: #3a415e;
-  margin: 3% auto !important;
+  margin: 2% auto !important;
   border-radius: 10px;
   background: #1e2333;
   box-shadow: 3px 3px 9px #0c0e14, -4px -3px 9px #303852;
 }
 #stufboutme {
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
   padding: 3%;
   height: fit-content;
   background-color: #3a415e;
-  margin: 3% auto !important;
+  margin: 2% auto !important;
   border-radius: 10px;
   background: #1e2333;
   box-shadow: 3px 3px 9px #0c0e14, -4px -3px 9px #303852;
@@ -53,7 +65,18 @@ li {
   height: 100vh;
   width: 100vw;
 }
-
+.card-header {
+  background-color: #1e2333;
+  outline: none !important;
+  box-shadow: 3px 3px 9px #0c0e14, -4px -3px 9px #303852;
+  margin: 1.4%;
+}
+.card {
+  background-color: #1e2333;
+}
+.card-body {
+  color: white;
+}
 @media all and (max-width: 700px) {
   #contact {
     width: 94%;
@@ -62,5 +85,11 @@ li {
   #stufboutme {
     width: 94%;
     margin: 0 auto;
+  }
+  #holdskills {
+    flex-direction: column;
+  }
+  #skills {
+    width: 90%;
   }
 }
