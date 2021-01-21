@@ -57,7 +57,7 @@ export default class Contact extends Component {
                   },
                 },
                 line_linked: {
-                  enable: false,
+                  enable: true,
                 },
               },
             }}
