@@ -25,6 +25,9 @@ textarea {
   background-color: rgb(255, 75, 210);
   margin: 3% auto;
 }
+#skillleft {
+  text-align: left;
+}
 #main {
   width: 100%;
   display: flex;
@@ -37,7 +40,7 @@ textarea {
   padding: 3%;
   height: fit-content;
   background-color: rgba(58, 65, 94, 0.64);
-  margin: 2% auto !important;
+  margin: 1.5% auto !important;
   border-radius: 10px;
   background: #1e2333;
   box-shadow: 3px 3px 9px #0c0e14, -4px -3px 9px #303852;
@@ -48,7 +51,7 @@ textarea {
   padding: 3%;
   height: fit-content;
   background-color: #3a415e;
-  margin: 2% auto !important;
+  margin: 1.5% auto !important;
   border-radius: 10px;
   background: #1e2333;
   box-shadow: 3px 3px 9px #0c0e14, -4px -3px 9px #303852;

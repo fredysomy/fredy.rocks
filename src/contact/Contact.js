@@ -26,7 +26,7 @@ export default class Contact extends Component {
     event.preventDefault();
     fetch("https://3trd25.deta.dev/email", {
       method: "POST",
-      body: JSON.stringify({ emails: this.state.email }),
+      body: JSON.stringify({ emails: this.state.email, name: this.state.name }),
       headers: {
         "Content-Type": "application/json; charset=utf-8",
       },
@@ -63,40 +63,42 @@ export default class Contact extends Component {
             }}
             id="part"
           />
-          <h3 id="head"><font color="cyan">Contact Me</font></h3>
-          <div className="form-group">
-            <input
-              required
-              placeholder="Name"
-              type="text"
-              className="form-control"
-              onChange={this.nameonChange.bind(this)}
-            />
-          </div>
-          <div className="form-group">
-            <input
-              placeholder="Email "
-              type="email"
-              className="form-control"
-              aria-describedby="emailHelp"
-              onChange={this.mailonChange.bind(this)}
-            />
-          </div>
-          <div className="form-group">
-            <textarea
-              placeholder="Your Message"
-              className="form-control"
-              rows="5"
-              onChange={this.messageonChange.bind(this)}
-            ></textarea>
-          </div>
-          <button
-            onClick={this.handleSubmit.bind(this)}
-            type="submit"
-            className="btn btn-primary"
-          >
-            Submit
-          </button>
+          <h3 id="head">
+            <font color="cyan">Contact Me</font>
+          </h3>
+          <form onSubmit={this.handleSubmit.bind(this)}>
+            <div className="form-group">
+              <input
+                required
+                placeholder="Name"
+                type="text"
+                className="form-control"
+                onChange={this.nameonChange.bind(this)}
+              />
+            </div>
+            <div className="form-group">
+              <input
+                required
+                placeholder="Email "
+                type="email"
+                className="form-control"
+                aria-describedby="emailHelp"
+                onChange={this.mailonChange.bind(this)}
+              />
+            </div>
+            <div className="form-group">
+              <textarea
+                required
+                placeholder="Your Message"
+                className="form-control"
+                rows="5"
+                onChange={this.messageonChange.bind(this)}
+              ></textarea>
+            </div>
+            <button type="submit" className="btn btn-primary">
+              Submit
+            </button>
+          </form>
           <div
             class="modal fade"
             id="exampleModal"
@@ -122,6 +124,8 @@ export default class Contact extends Component {
                 <div class="modal-body">
                   Thanks for sending the message. I will try to contact you as
                   soon as possible. Thanks For your time
+                  <br />
+                  Check the Promotions and Spam folders also.
                 </div>
                 <div class="modal-footer">
                   <button
@@ -151,7 +155,9 @@ export default class Contact extends Component {
           </div>
         </div>
         <div id="stufboutme">
-          <h3 id="head"><font color="cyan">Services I offer</font></h3>
+          <h3 id="head">
+            <font color="cyan">Services I offer</font>
+          </h3>
           <div class="accordion" id="accordionExample">
             <div class="card">
               <div class="card-header" id="headingTwo">
@@ -174,7 +180,37 @@ export default class Contact extends Component {
                 aria-labelledby="headingTwo"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">sd</div>
+                <div class="card-body">
+                  <p id="skillleft">
+                    I Can make Full stack web apps using MERN,MEHN stack.
+                  </p>
+                  <p id="skillleft">
+                    I know Node , Express JS, React js ,MongoDB as Database.
+                  </p>
+                  <p id="skillleft">Some Full stack apps i made:</p>
+                  <ul>
+                    <li>
+                      <a href="https://github.com/fredysomy/Blogitn0w">
+                        BlogItnow (A Blog App)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/fredysomy/MarkdownIt">
+                        MarkdownIt (A Web Hosting App)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/fredysomy/Github-API">
+                        Github-API (A Python Web crawler)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/fredysomy/URLshortner">
+                        URLSHortner (A Node Project)
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
             <div class="card">
@@ -198,7 +234,29 @@ export default class Contact extends Component {
                 aria-labelledby="headingTwoq"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">sd</div>
+                <div class="card-body">
+                  <p id="skillleft">
+                    I make desktop Apps with ELectronjs,Pyqt5,Tkinter
+                  </p>
+                  <p id="skillleft">Here are some of Apps i created:</p>
+                  <ul>
+                    <li>
+                      <a href="https://github.com/fredysomy/MarkdownIt">
+                        MarkdownIt
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/fredysomy/HealthApp">
+                        HealthApp
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/fredysomy/YTD-YoutubeSongDownloader">
+                        YoutubeSongDownloader
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
             <div class="card">
@@ -212,7 +270,7 @@ export default class Contact extends Component {
                     aria-expanded="false"
                     aria-controls="collapseTwow"
                   >
-                    <i class="fab fa-html5"></i> FrontEnd Development
+                    <i class="fab fa-html5"></i> Front End Development
                   </button>
                 </h2>
               </div>
@@ -222,7 +280,39 @@ export default class Contact extends Component {
                 aria-labelledby="headingTwow"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">sd</div>
+                <div class="card-body">
+                  <p id="skillleft">
+                    I work in the frontend with HTML,CSS,JS,jquery and React JS
+                  </p>
+                  <p id="skillleft">Here are some of my Works:</p>
+                  <ul>
+                    <li>
+                      <a href="https://github.com/fredysomy/PersonalSite">
+                        The website You are seeing
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/fredysomy/SpaceInfo">
+                        SpaceInfo (Visualizing Nasa API's)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/fredysomy/DebuggCovid">
+                        debuggcovid
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/fredysomy/Todo-App">
+                        Todo -App
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/fredysomy/PersonalBlog">
+                        Personal Blog
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
             <div class="card">
@@ -236,7 +326,7 @@ export default class Contact extends Component {
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    <i class="fas fa-layer-group"></i> Full Stack Developemt
+                    <i class="fas fa-layer-group"></i> CLI's and Packages
                   </button>
                 </h2>
               </div>
@@ -246,7 +336,27 @@ export default class Contact extends Component {
                 aria-labelledby="headingThree"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">sdsd</div>
+                <div class="card-body">
+                  <p id="skillleft">I also make CLI's and Packages in Python</p>
+                  <p id="skillleft">Here are some:</p>
+                  <ul>
+                    <li>
+                      <a href="https://github.com/fredysomy/CsvToDeta">
+                        CsvToDeta
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/fredysomy/pysonDB">
+                        PysonDB (CLI and Package)
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/fredysomy/gitscrpy">
+                        gitscrpy (Github Scraper)
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
