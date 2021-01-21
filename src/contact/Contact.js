@@ -178,48 +178,48 @@ export default class Contact extends Component {
               </div>
             </div>
             <div class="card">
-              <div class="card-header" id="headingTwo">
+              <div class="card-header" id="headingTwoq">
                 <h2 class="mb-0">
                   <button
                     class="btn btn-link btn-block text-left collapsed"
                     type="button"
                     data-toggle="collapse"
-                    data-target="#collapseTwo"
+                    data-target="#collapseTwoq"
                     aria-expanded="false"
-                    aria-controls="collapseTwo"
+                    aria-controls="collapseTwoq"
                   >
                     <i class="fas fa-desktop"></i> Desktop Apps
                   </button>
                 </h2>
               </div>
               <div
-                id="collapseTwo"
+                id="collapseTwoq"
                 class="collapse"
-                aria-labelledby="headingTwo"
+                aria-labelledby="headingTwoq"
                 data-parent="#accordionExample"
               >
                 <div class="card-body">sd</div>
               </div>
             </div>
             <div class="card">
-              <div class="card-header" id="headingTwo">
+              <div class="card-header" id="headingTwow">
                 <h2 class="mb-0">
                   <button
                     class="btn btn-link btn-block text-left collapsed"
                     type="button"
                     data-toggle="collapse"
-                    data-target="#collapseTwo"
+                    data-target="#collapseTwow"
                     aria-expanded="false"
-                    aria-controls="collapseTwo"
+                    aria-controls="collapseTwow"
                   >
                     <i class="fab fa-html5"></i> FrontEnd Development
                   </button>
                 </h2>
               </div>
               <div
-                id="collapseTwo"
+                id="collapseTwow"
                 class="collapse"
-                aria-labelledby="headingTwo"
+                aria-labelledby="headingTwow"
                 data-parent="#accordionExample"
               >
                 <div class="card-body">sd</div>
