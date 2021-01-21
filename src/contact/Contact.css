@@ -36,7 +36,7 @@ textarea {
   margin: 0 auto;
   padding: 3%;
   height: fit-content;
-  background-color: #3a415e;
+  background-color: rgba(58, 65, 94, 0.44);
   margin: 2% auto !important;
   border-radius: 10px;
   background: #1e2333;
