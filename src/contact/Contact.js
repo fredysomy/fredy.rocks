@@ -22,6 +22,7 @@ export default class Contact extends Component {
   messageonChange(event) {
     this.setState({ message: event.target.value });
   }
+
   handleSubmit(event) {
     event.preventDefault();
     fetch("https://3trd25.deta.dev/email", {

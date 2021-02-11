@@ -65,7 +65,7 @@ function App() {
       <Router>
         <div className="App">
           <Header />
-          <Contact />
+          <Projects />
         </div>
       </Router>
     );
