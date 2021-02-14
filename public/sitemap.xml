@@ -1,15 +1,17 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
-<url>
+<sitemapindex xmlns="http://www.google.com/schemas/sitemap/0.84">
+<sitemap>
 <loc>https://fredy.rocks/</loc>
-<lastmod>2021-01-20T02:26:55+00:00</lastmod>
-</url>
-<url>
-<loc>https://blog.fredy.rocks/</loc>
-<lastmod>2021-01-20T02:26:55+00:00</lastmod>
-</url>
-<url>
+</sitemap>
+<sitemap>
+<loc>https://projects.fredy.rocks/</loc>
+</sitemap>
+<sitemap>
 <loc>https://contact.fredy.rocks/</loc>
-<lastmod>2021-01-20T02:26:55+00:00</lastmod>
-</url>
-</urlset>
+</sitemap>
+<sitemap>
+<loc>https://blog.fredy.rocks/</loc>
+</sitemap>
+<sitemap>
+<loc>https://github.com/fredysomy</loc>
+</sitemap>
+</sitemapindex>
