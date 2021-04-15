@@ -79,7 +79,7 @@ export default class Mainbody extends Component {
             </a>
             <a
               download
-              href="https://drive.google.com/uc?export=view&id=1XRRQqGRqT3jK_EVNV4WSjDBRHQ8o9-rF"
+              href="https://drive.google.com/uc?export=view&id=1trL6oaxrITzDrMa62hk9tV94e75MfybR"
             >
               <button class="btn btn-outline-info resume">Resume</button>
             </a>
@@ -90,3 +90,4 @@ export default class Mainbody extends Component {
     );
   }
 }
+
