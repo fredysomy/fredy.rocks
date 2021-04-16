@@ -1,37 +1,12 @@
 import React, { Component } from "react";
 import "./Mainbody.css";
 import Particles from "react-particles-js";
+import ThreeContainer from "../threejsentry/threeentry";
 export default class Mainbody extends Component {
   render() {
     return (
       <div id="divmain" style={{ position: "relative", overflow: "hidden" }}>
-        <Particles
-          params={{
-            particles: {
-              number: {
-                value: 90,
-                density: {
-                  enable: true,
-                  value_area: 800,
-                },
-                opacity: {
-                  value: 0.8,
-                  random: false,
-                  anim: {
-                    enable: false,
-                    speed: 1,
-                    opacity_min: 0.1,
-                    sync: false,
-                  },
-                },
-              },
-              line_linked: {
-                enable: false,
-              },
-            },
-          }}
-          id="part"
-        />
+  
         <img
           id="imgme"
           src="https://avatars2.githubusercontent.com/u/65971072?s=460&u=dd6ae329cb0a04cbddc6c0959a924ceeac62bf02&v=4"

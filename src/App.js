@@ -6,6 +6,7 @@ import Particles from "react-particles-js";
 import Projects from "./projects/Projects";
 import Downloads from "./donwloads/Downloads";
 import Contact from "./contact/Contact";
+import ThreeContainer from "./threejsentry/threeentry";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   // return(
@@ -45,7 +46,10 @@ function App() {
       <Router>
         <div className="App">
           <Header />
+         
           <Mainbody />
+        
+          
         </div>
       </Router>
     );
