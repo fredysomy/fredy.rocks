@@ -52,9 +52,9 @@ export default class Projects extends Component {
                       <img alt="GitHub Repo stars" src={projects.stars}></img>
                     </b>
                   </h3>
-                  <p>{projects.desc}</p>
-                  
-                  <p>{projects.desc2}</p>
+                  <p>{projects.desc}
+                   </br>
+                  {projects.desc2}</p>
                   <p id="tech">{projects.tech}</p>
                   <a href={projects.src}>
                     <button className="btn btn-outline-primary btn-sm bttn">
