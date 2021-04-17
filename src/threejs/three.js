@@ -1,6 +1,7 @@
 import * as THREE from "three";
-export default function ThreeEntryPoint(sceneRef) {
+function scenery() {
   var scene = new THREE.Scene()
+  
   const camera=new THREE.PerspectiveCamera(
     75,
     window.innerWidth/window.innerHeight,
@@ -8,9 +9,9 @@ export default function ThreeEntryPoint(sceneRef) {
     1000
   )
   camera.position.set(0,0,4)
-  const renderer=new THREE.WebGLRenderer({antialias:true})
+  const renderer=new THREE.WebGLRenderer({ alpha: true ,canvas:document.querySelector("canvas.webgl")})
   renderer.setSize(window.innerWidth,window.innerHeight)
-  sceneRef.appendChild(renderer.domElement)
+  
   const geometry = new THREE.BoxGeometry();
   const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
   const cube = new THREE.Mesh( geometry, material );
@@ -27,3 +28,4 @@ export default function ThreeEntryPoint(sceneRef) {
   animate();
 
 }
+export default scenery;

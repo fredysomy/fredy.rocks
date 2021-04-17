@@ -6,9 +6,11 @@ import Particles from "react-particles-js";
 import Projects from "./projects/Projects";
 import Downloads from "./donwloads/Downloads";
 import Contact from "./contact/Contact";
-import ThreeContainer from "./threejsentry/threeentry";
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import scenery from './threejs/three'
 function App() {
+  scenery()
   // return(
   // <Router>
   // <div className="App">
@@ -41,7 +43,7 @@ function App() {
       </Router>
     );
   }
-  if (window.location.host.split(".")[0] == "fredy") {
+  if (window.location.host.split(".")[2] == "gitpod") {
     return (
       <Router>
         <div className="App">

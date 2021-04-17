@@ -6,33 +6,7 @@ export default class Projects extends Component {
   render() {
     return (
       <div>
-        <Particles
-          params={{
-            particles: {
-              number: {
-                value: 80,
-                density: {
-                  enable: true,
-                  value_area: 800,
-                },
-                opacity: {
-                  value: 0.5,
-                  random: false,
-                  anim: {
-                    enable: false,
-                    speed: 1,
-                    opacity_min: 0.1,
-                    sync: false,
-                  },
-                },
-              },
-              line_linked: {
-                enable: false,
-              },
-            },
-          }}
-          id="part"
-        />
+        
         <h3 id="head" align="center">
           My{" "}
           <u>
@@ -53,7 +27,7 @@ export default class Projects extends Component {
                     </b>
                   </h3>
                   <p>{projects.desc}
-                   </br>
+                   <br/>
                   {projects.desc2}</p>
                   <p id="tech">{projects.tech}</p>
                   <a href={projects.src}>
