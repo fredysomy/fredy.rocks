@@ -53,7 +53,7 @@ export default class Projects extends Component {
                     </b>
                   </h3>
                   <p>{projects.desc}</p>
-                  <br></br>
+                  
                   <p>{projects.desc2}</p>
                   <p id="tech">{projects.tech}</p>
                   <a href={projects.src}>
