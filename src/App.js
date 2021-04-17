@@ -48,6 +48,9 @@ function App() {
           <Header />
          
           <Mainbody />
+          <Projects/>
+          <Contact />
+          
         
           
         </div>
