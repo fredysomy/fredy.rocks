@@ -43,7 +43,7 @@ function App() {
       </Router>
     );
   }
-  if (window.location.host.split(".")[2] == "gitpod") {
+  if (window.location.host.split(".")[0] == "fredy") {
     return (
       <Router>
         <div className="App">
