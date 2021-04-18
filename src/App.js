@@ -9,8 +9,10 @@ import Contact from "./contact/Contact";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import scenery from './threejs/three'
+import { Component } from "react";
+
 function App() {
-  scenery()
+  
   // return(
   // <Router>
   // <div className="App">
@@ -24,7 +26,7 @@ function App() {
   //  </div>
   //  </Router>
   //  )
-
+  scenery()
   if (window.location.host.split(".")[0] == "projects") {
     return (
       <Router>
@@ -70,11 +72,15 @@ function App() {
     );
   }
   if (window.location.host.split(".")[2] == "gitpod") {
+  
     return (
       <Router>
         <div className="App">
-          <Header />
-          <Projects />
+        <Header />
+         
+         <Mainbody />
+         <Projects/>
+         <Contact />
         </div>
       </Router>
     );

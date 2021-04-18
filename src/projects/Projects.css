@@ -23,12 +23,12 @@
 .maindiv {
   width: 80vw;
   height: fit-content;
-  background-color: #3a415e;
+  background-color: #1e2333c4 !important;
   display: flex;
   flex-direction: row !important;
   margin: 1.5% auto !important;
   border-radius: 10px;
-  background: #1e2333;
+  background: #1e2333c4;
   box-shadow: 3px 3px 9px #0c0e14, -4px -3px 9px #303852;
 }
 
