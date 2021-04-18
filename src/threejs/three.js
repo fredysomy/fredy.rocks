@@ -53,8 +53,8 @@ function scenery() {
     renderer.render( scene, camera );
   };
 window.addEventListener("scroll",(e)=>{
-  grp.rotation.x+=0.09
-  grp.rotation.y+=0.09
+  grp.rotation.x+=0.01
+  grp.rotation.y+=0.01
   
   
 })
