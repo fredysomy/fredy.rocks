@@ -23,8 +23,8 @@ function scenery() {
   const grp=new THREE.Group()
   
 
-  for(var i=0;i<=30;i++){
-    const cube = new THREE.Mesh( geometry, material );
+  for(var i=0;i<=60;i++){
+    //const cube = new THREE.Mesh( geometry, material );
     const torusM=new THREE.Mesh(torus,material)
     torusM.position.set(
       (Math.random()-0.3)*20,
@@ -32,13 +32,13 @@ function scenery() {
       (Math.random()-0.3)*20,
 
     )
-    cube.position.set(
-      (Math.random()-0.5)*20,
-      (Math.random()-0.5)*20,
-      (Math.random()-0.5)*20,
+    //cube.position.set(
+     // (Math.random()-0.5)*20,
+     // (Math.random()-0.5)*20,
+    //  (Math.random()-0.5)*20,
 
     )
-    grp.add(torusM,cube)
+    grp.add(torusM)
 
 
   }
