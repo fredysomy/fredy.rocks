@@ -88,8 +88,8 @@ scene.add( directionalLight );
     renderer.render( scene, camera );
   };
 window.addEventListener("scroll",(e)=>{
-  grp.rotation.x+=0.01
-  grp.rotation.y+=0.01
+  grp.rotation.x+=0.07
+  grp.rotation.y+=0.07
   
   
 })
