@@ -39,28 +39,32 @@ scene.add( directionalLight );
   const grp=new THREE.Group()
   
 
-  for(var i=0;i<=10;i++){
+  //for(var i=0;i<=10;i++){
     //const cube = new THREE.Mesh( geometry, material );
-    const torusM=new THREE.Mesh(torus,material)
-    torusM.position.set(
-      (Math.random()-0.5)*20,
-      (Math.random()-0.5)*20,
-      (Math.random()-0.5)*20,
-
-    )
+    
     //cube.position.set(
      // (Math.random()-0.5)*20,
      // (Math.random()-0.5)*20,
     //  (Math.random()-0.5)*20,
 
     
-    grp.add(torusM)
+  // grp.add(torusM)
 
 
-  }
+  //}
   for(var j=0;j<=10;j++){
     //const cube = new THREE.Mesh( geometry, material );
     const torusM=new THREE.Mesh(torus,material1)
+const torusMN=new THREE.Mesh(torus,material)
+    torusMN.position.set(
+      (Math.random()-0.5)*20,
+      (Math.random()-0.5)*20,
+      (Math.random()-0.5)*20,
+
+    )
+
+
+
     torusM.position.set(
       (Math.random()-0.5)*20,
       (Math.random()-0.5)*20,
@@ -73,7 +77,7 @@ scene.add( directionalLight );
     //  (Math.random()-0.5)*20,
 
     
-    grp.add(torusM)
+    grp.add(torusM,torusMN)
 
 
   }
