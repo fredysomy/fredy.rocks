@@ -9,7 +9,7 @@ function scenery() {
     1000
   )
   camera.position.set(0,0,20)
-  const renderer=new THREE.WebGLRenderer({ alpha: true ,canvas:document.querySelector("canvas.webgl")})
+  const renderer=new THREE.WebGLRenderer({ antialias:true,alpha: true ,canvas:document.querySelector("canvas.webgl")})
   renderer.setSize(window.innerWidth,window.innerHeight)
   
   const geometry = new THREE.BoxGeometry();
