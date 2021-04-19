@@ -20,7 +20,7 @@ scene.add( directionalLight );
   const material = new THREE.MeshLambertMaterial({
     color:"rgb(255,239,0)",
     emissive: 0xff75,
-    emissiveIntensity: 1,
+    emissiveIntensity: 0.5,
     side: THREE.DoubleSide
 });
   material.side = THREE.DoubleSide;
@@ -30,7 +30,7 @@ scene.add( directionalLight );
   const material1 = new THREE.MeshLambertMaterial({
     color:"#FF00D5",
     emissive: 0xff75,
-    emissiveIntensity: 1,
+    emissiveIntensity: 0.5,
     side: THREE.DoubleSide
 });
   material1.side = THREE.DoubleSide;
