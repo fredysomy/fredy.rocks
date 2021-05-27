@@ -71,6 +71,15 @@ function App() {
       </Router>
     );
   }
+if (window.location.host.split(".")[0] == "google") {
+    return (
+      <Router>
+        <div className="App">
+        <h3 color="white">വേറെ പണിയൊന്നുമില്ല</h3>
+        </div>
+      </Router>
+    );
+  }
   if (window.location.host.split(".")[2] == "gitpod") {
   
     return (
