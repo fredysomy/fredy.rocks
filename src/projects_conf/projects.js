@@ -1,19 +1,6 @@
 module.exports.proje = [
   {
     img:
-      "https://raw.githubusercontent.com/fredysomy/MarkdownIt/master/icons/dassad.png",
-    name: "MarkdownIt",
-    stars:
-      "https://img.shields.io/github/stars/fredysomy/MarkdownIt?style=for-the-badge",
-    desc:
-      "Efficient Code Editor to live render Markdown and save as Markdown,Html and Pdf + Instant Hosting in The Web.",
-    desc2: "Usefull for writing docs and Hosting it for free.",
-    tech: "Electron JS , HTML,CSS , JavaScript",
-    src: "https://github.com/fredysomy/MarkdownIt",
-    demo: "https://markdownitweb.herokuapp.com/",
-  },
-  {
-    img:
       "https://raw.githubusercontent.com/fredysomy/pysonDB/master/images/file2son.png?token=APXKHAH6EDEJ7RUG3QOD2OC7ZHQZG",
     name: "PysonDB",
     stars:
@@ -25,6 +12,34 @@ module.exports.proje = [
     src: "https://github.com/fredysomy/pysonDB",
     demo: "https://fredysomy.me/pysonDB/",
   },
+  {
+    img:
+      "https://raw.githubusercontent.com/proxpi/images/main/screely-1641140669081.png",
+    name: "ProxPi",
+    stars:
+      "https://img.shields.io/github/stars/proxpi/proxpi?style=for-the-badge",
+    desc:
+      "A Free, Open Source Proxy for your RESTful API's with analytics and IP/website blocking",
+    desc2: "Usefull for faster frontend API access.",
+    tech: "React JS , HTML ,CSS , Node js , JavaScript",
+    src: "https://github.com/proxpi/proxpi",
+    demo: "https://proxpi.tech/",
+  },
+  {
+    img:
+      "https://raw.githubusercontent.com/fredysomy/MarkdownIt/master/icons/dassad.png",
+    name: "MarkdownIt",
+    stars:
+      "https://img.shields.io/github/stars/fredysomy/MarkdownIt?style=for-the-badge",
+    desc:
+      "Efficient Code Editor to live render Markdown and save as Markdown,Html and Pdf + Instant Hosting in The Web.",
+    desc2: "Usefull for writing docs and Hosting it for free.",
+    tech: "Electron JS , HTML,CSS , JavaScript",
+    src: "https://github.com/fredysomy/MarkdownIt",
+    demo: "https://markdownitweb.herokuapp.com/",
+  },
+  
+  
   {
     img: "https://raw.githubusercontent.com/fredysomy/HealthApp/master/img/Cardiovascularofessional%20Society~3.png",
     name: "HealthApp",
