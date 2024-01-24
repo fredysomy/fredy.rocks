@@ -46,12 +46,12 @@ export default class Mainbody extends Component {
             </a>
           </div>
           <div id="buttonref">
-            <a href="https://contact.fredy.rocks/">
+            <a href="#stufboutme">
               <button class="btn btn-outline-info resume">Hire Me</button>
             </a>
             <a
               download
-              href="https://drive.google.com/uc?export=view&id=1trL6oaxrITzDrMa62hk9tV94e75MfybR"
+              href="../../Fredy_s_Resume-4.pdf"
             >
               <button class="btn btn-outline-info resume">Resume</button>
             </a>

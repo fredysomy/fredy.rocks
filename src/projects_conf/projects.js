@@ -26,6 +26,16 @@ module.exports.proje = [
     demo: "https://proxpi.tech/",
   },
   {
+    img: "https://repository-images.githubusercontent.com/681018767/0d3158ba-e4aa-4c3e-8f6f-10e7c6a4e6bd",
+     name: "Songify",
+     stars: "https://img.shields.io/github/stars/fredysomy/Blogitn0w?style=for-the-badge",
+     desc: "Discover, play music with Songify! A Flutter app that brings your music fantasies to life. ",
+     desc2:"Search, stream, and explore a universe of tunes using Jio Saavn's API. Unveil personalized recommendations, playlists, and albums.",
+     tech: "Dart, Flutter",
+     src: "https://github.com/fredysomy/Songify",
+  
+   },
+  {
     img:
       "https://raw.githubusercontent.com/fredysomy/MarkdownIt/master/icons/dassad.png",
     name: "MarkdownIt",
@@ -73,7 +83,7 @@ module.exports.proje = [
     {
     img: "https://raw.githubusercontent.com/fredysomy/CsvToDeta/main/images/20201203_215247_0000~2.png",
     name: "Blogitn0w",
-    stars: "https://img.shields.io/github/stars/fredysomy/Blogitn0w?style=for-the-badge",
+    stars: "https://img.shields.io/github/stars/fredysomy/Songify?style=for-the-badge",
     desc: "A simple Blog App made with Node,Express,MongoDb.",
     desc2:"Users can write blogs and have a dashboard where they can edit,create new blogs , change password and edit bio.",
     tech: "Node , Express JS , MongoDB",
@@ -84,13 +94,4 @@ module.exports.proje = [
 
 
 
-//{
-  //  img: "https://raw.githubusercontent.com/fredysomy/CsvToDeta/main/images/20201203_215247_0000~2.png",
- //   name: "Blogitn0w",
-  //  stars: "https://img.shields.io/github/stars/fredysomy/Blogitn0w?style=for-the-badge",
- //   desc: "A simple Blog App made with Node,Express,MongoDb.",
- //   desc2:"Users can write blogs and have a dashboard where they can edit,create new blogs , change password and edit bio.",
-  //  tech: "Node , Express JS , MongoDB",
- //   src: "https://github.com/fredysomy/Blogitn0w",
- //   demo: "https://blogitn0w.herokuapp.com/",
- // },
+
