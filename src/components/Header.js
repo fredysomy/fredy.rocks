@@ -37,19 +37,19 @@ export default class Header extends Component {
               </li>
 
               <li id="abc" class="nav-item">
-                <a href="https://projects.fredy.rocks/" class="nav-link">
+                <a href="#head" class="nav-link">
                   Projects
                 </a>
               </li>
 
               <li id="abc" class="nav-item">
-                <a class="nav-link" href="https://blog.fredy.rocks/">
+                <a class="nav-link" href="https://dev.to/fredysomy">
                   Blogs
                 </a>
               </li>
 
               <li id="abc" class="nav-item">
-                <a class="nav-link" href="https://contact.fredy.rocks/">
+                <a class="nav-link" href="#stufboutme">
                   Contact
                 </a>
               </li>

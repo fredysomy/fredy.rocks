@@ -2,7 +2,7 @@ import react, { Component } from "react";
 import "./Contact.css";
 import axios from "axios";
 import $ from "jquery";
-import Particles from "react-particles-js";
+
 
 export default class Contact extends Component {
   constructor(props) {

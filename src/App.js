@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Mainbody from "./components/Mainbody";
 import Header from "./components/Header";
-import Particles from "react-particles-js";
+
 import Projects from "./projects/Projects";
 import Downloads from "./donwloads/Downloads";
 import Contact from "./contact/Contact";
@@ -80,7 +80,7 @@ if (window.location.host.split(".")[0] == "google") {
       </Router>
     );
   }
-  if (window.location.host.split(".")[2] == "gitpod") {
+  if (window.location) {
   
     return (
       <Router>

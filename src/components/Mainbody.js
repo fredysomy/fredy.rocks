@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Mainbody.css";
-import Particles from "react-particles-js";
+
 
 export default class Mainbody extends Component {
   render() {
@@ -18,13 +18,11 @@ export default class Mainbody extends Component {
             </font>
           </h1>
           <hr />
-          <h5>
-            I am <b>Software Developer</b> and a Student
-          </h5>
+          <h4>
+            I am <b>Software Developer</b> and a Open Source Enthusiast
+          </h4>
           <h5 id="desc">
-            I focus mainly on Backend Web development with Python and Javascript
-            , also work in the Frontend with React , like to make Desktop apps
-            and Pypi modules.
+          Full Stack Developer and Open Source Contributor, Creator of PysonDB & ProxPi. Former Software Engineering Intern at Koll Corp, pursuing a Computer Science Undergraduate degree at Saintgits.
           </h5>
           <hr />
           <div>

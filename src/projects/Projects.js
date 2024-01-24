@@ -1,7 +1,7 @@
 import react, { Component } from "react";
 import "./Projects.css";
 import proj from "../projects_conf/projects";
-import Particles from "react-particles-js";
+
 export default class Projects extends Component {
   render() {
     return (
