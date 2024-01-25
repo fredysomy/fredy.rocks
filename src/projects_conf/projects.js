@@ -26,9 +26,9 @@ module.exports.proje = [
     demo: "https://proxpi.tech/",
   },
   {
-    img: "https://repository-images.githubusercontent.com/681018767/0d3158ba-e4aa-4c3e-8f6f-10e7c6a4e6bd",
+    img: "https://raw.githubusercontent.com/fredysomy/HealthApp/master/img/Screenshot%20from%202024-01-25%2011-07-19.png",
      name: "Songify",
-     stars: "https://img.shields.io/github/stars/fredysomy/Blogitn0w?style=for-the-badge",
+     stars: "https://img.shields.io/github/stars/fredysomy/Songify?style=for-the-badge",
      desc: "Discover, play music with Songify! A Flutter app that brings your music fantasies to life. ",
      desc2:"Search, stream, and explore a universe of tunes using Jio Saavn's API. Unveil personalized recommendations, playlists, and albums.",
      tech: "Dart, Flutter",
