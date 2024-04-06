@@ -22,7 +22,7 @@ export default class Mainbody extends Component {
             I am <b>Software Developer</b> and a Open Source Enthusiast
           </h4>
           <h5 id="desc">
-          Full Stack Developer and Open Source Contributor, Creator of PysonDB & ProxPi. Former Software Engineering Intern at Koll Corp, pursuing a Computer Science Undergraduate degree at Saintgits.
+          Full Stack Developer and Open Source Contributor, Creator of PysonDB & ProxPi. Former Software Engineering Trainee at Koll Corp, pursuing a Computer Science Undergraduate degree at Saintgits.
           </h5>
           <hr />
           <div>
@@ -51,7 +51,8 @@ export default class Mainbody extends Component {
             </a>
             <a
               download
-              href="https://drive.google.com/uc?export=download&id=1-QcPBzOJ1Qd6b6XJTd_SmrEJ87PYKfrk"
+              href="https://drive.google.com/uc?export=download&id=1lERhX_HyX3vMh53_6V5tulxeUK075zb7"
+          
             >
               <button class="btn btn-outline-info resume">Resume</button>
             </a>

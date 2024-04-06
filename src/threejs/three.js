@@ -8,7 +8,7 @@ function scenery() {
     0.1,
     1000
   )
-  camera.position.set(0,0,20)
+  camera.position.set(0,0,15)
   const renderer=new THREE.WebGLRenderer({ antialias:true,alpha: true ,canvas:document.querySelector("canvas.webgl")})
   renderer.setSize(window.innerWidth,window.innerHeight)
   
@@ -18,9 +18,9 @@ function scenery() {
 scene.add( directionalLight );
  
   const material = new THREE.MeshLambertMaterial({
-    color:"rgb(255,239,0)",
+    color:"rgb(204,255,204)",
     emissive: 0xff75,
-    emissiveIntensity: 0.5,
+    emissiveIntensity: 0.8,
     side: THREE.DoubleSide
 });
   material.side = THREE.DoubleSide;
@@ -28,7 +28,7 @@ scene.add( directionalLight );
 
    
   const material1 = new THREE.MeshLambertMaterial({
-    color:"#FF00D5",
+    color:"#0066CC",
     emissive: 0xff75,
     emissiveIntensity: 0.5,
     side: THREE.DoubleSide
