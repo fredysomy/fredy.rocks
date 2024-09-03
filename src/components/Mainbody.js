@@ -19,10 +19,10 @@ export default class Mainbody extends Component {
           </h1>
           <hr />
           <h4>
-            I am <b>Software Developer</b> and a Open Source Enthusiast
+            <b>Software Engineer</b> and an Entrepreneur
           </h4>
           <h5 id="desc">
-          Full Stack Developer and Open Source Contributor, Creator of PysonDB & ProxPi. Former Software Engineering Trainee at Koll Corp, pursuing a Computer Science Undergraduate degree at Saintgits.
+          Co-Founder Blackswitch Technologies, Full Stack Developer, and Created PysonDB & ProxPi. Former Software Engineering Intern at Koll Corp.
           </h5>
           <hr />
           <div>
@@ -46,12 +46,12 @@ export default class Mainbody extends Component {
             </a>
           </div>
           <div id="buttonref">
-            <a href="#stufboutme">
+            <a href="mailto:fredysomy@gmail.com">
               <button class="btn btn-outline-info resume">Hire Me</button>
             </a>
             <a
               download
-              href="https://drive.google.com/uc?export=download&id=1lERhX_HyX3vMh53_6V5tulxeUK075zb7"
+              href="https://drive.google.com/uc?export=download&id=1T9hMLrb92usoo8D47_z6r09lYBidMQzz"
           
             >
               <button class="btn btn-outline-info resume">Resume</button>
