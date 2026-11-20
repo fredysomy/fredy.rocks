@@ -1,17 +1,113 @@
 #experience {
+  width: 80vw;
+  margin: 5% auto;
   color: white;
-  width: 70%;
-  margin: 5vh auto;
   font-family: "Nanum Gothic", sans-serif;
 }
+#experience .timeline {
+  position: relative;
+  margin-top: 4%;
+  padding-left: 36px;
+  border-left: 2px solid rgba(0, 255, 255, 0.3);
+}
 #experience .job {
-  margin: 4vh 0;
+  position: relative;
+  margin-bottom: 40px;
+}
+#experience .dot {
+  position: absolute;
+  left: -46px;
+  top: 28px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #1e2333;
+  border: 3px solid cyan;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+}
+#experience .job-card {
+  padding: 28px 32px;
+  border-radius: 10px;
+  background: #1e2333c4;
+  box-shadow: 3px 3px 9px #0c0e14, -4px -3px 9px #303852;
+  transition: transform 0.2s;
+}
+#experience .job-card:hover {
+  transform: translateY(-3px);
+}
+#experience .job-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+#experience h4 {
+  margin: 0 0 4px;
+  font-family: "Comfortaa", cursive;
+}
+#experience h5 {
+  margin: 0;
+  color: cyan;
+  font-size: 17px;
+}
+#experience .when {
+  white-space: nowrap;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  color: #9aa4c7;
+  background: #1e2333;
+  box-shadow: inset 2px 2px 5px #0c0e14, inset -2px -2px 5px #303852;
+}
+#experience ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 #experience li {
-  margin: 8px 0;
+  position: relative;
+  padding-left: 22px;
+  margin: 12px 0;
+  line-height: 1.6;
+  color: #d5d9e6;
+}
+#experience li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: cyan;
+}
+#experience li b {
+  color: white;
+}
+#experience .job-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+#experience .job-tech span {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  color: cyan;
+  border: 1px solid rgba(0, 255, 255, 0.25);
 }
 @media screen and (max-width: 800px) {
   #experience {
-    width: 92%;
+    width: 92vw;
+  }
+  #experience .timeline {
+    padding-left: 22px;
+  }
+  #experience .dot {
+    left: -32px;
+  }
+  #experience .job-card {
+    padding: 20px;
+  }
+  #experience .job-top {
+    flex-direction: column;
   }
 }
