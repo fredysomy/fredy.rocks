@@ -22,7 +22,7 @@ export default class Mainbody extends Component {
             <b>Backend Engineer</b>
           </h4>
           <h5 id="desc">
-          3 years building data platforms, query engines, and distributed data pipelines. Focused on access control, high-throughput data loading, and reliable task orchestration on production systems.
+          3 years building scalable backend systems, APIs, and data pipelines. I focus on performance, security, and reliability, and enjoy turning complex problems into simple, dependable software.
           </h5>
           <hr />
           <div>
