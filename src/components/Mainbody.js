@@ -19,10 +19,10 @@ export default class Mainbody extends Component {
           </h1>
           <hr />
           <h4>
-            <b>Software Engineer</b> and an Entrepreneur
+            <b>Backend Software Engineer</b> @ Peliqan
           </h4>
           <h5 id="desc">
-          Co-Founder Blackswitch Technologies, Full Stack Developer, and Created PysonDB & ProxPi. Former Software Engineering Intern at Koll Corp.
+          3 years building data platforms, query engines, and distributed data pipelines. Creator of PysonDB (547K+ downloads) & ProxPi.
           </h5>
           <hr />
           <div>
