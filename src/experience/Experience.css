@@ -1,0 +1,17 @@
+#experience {
+  color: white;
+  width: 70%;
+  margin: 5vh auto;
+  font-family: "Nanum Gothic", sans-serif;
+}
+#experience .job {
+  margin: 4vh 0;
+}
+#experience li {
+  margin: 8px 0;
+}
+@media screen and (max-width: 800px) {
+  #experience {
+    width: 92%;
+  }
+}

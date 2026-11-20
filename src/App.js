@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Projects from "./projects/Projects";
 import Downloads from "./donwloads/Downloads";
 import Contact from "./contact/Contact";
+import Experience from "./experience/Experience";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import scenery from './threejs/three'
@@ -52,6 +53,7 @@ function App() {
           <Header />
          
           <Mainbody />
+          <Experience />
           <Projects/>
           <Contact />
           
@@ -88,6 +90,7 @@ if (window.location.host.split(".")[0] == "google") {
         <Header />
          
          <Mainbody />
+          <Experience />
          <Projects/>
          <Contact />
         </div>
