@@ -51,7 +51,7 @@ export default class Mainbody extends Component {
             </a>
             <a
               download
-              href="https://drive.google.com/uc?export=download&id=1T9hMLrb92usoo8D47_z6r09lYBidMQzz"
+              href="/FredySomyResume.pdf"
           
             >
               <button class="btn btn-outline-info resume">Resume</button>
