@@ -15,9 +15,16 @@ export default function Contact() {
           <font color="cyan">Skills</font>
         </h3>
         {skills.map(([k, v]) => (
-          <p id="skillleft" key={k}>
-            <b>{k}:</b> {v}
-          </p>
+          <div className="skill-group" key={k}>
+            <h6>{k}</h6>
+            <div className="chips">
+              {v.split(", ").map((s) => (
+                <span className="chip" key={s}>
+                  {s}
+                </span>
+              ))}
+            </div>
+          </div>
         ))}
       </div>
       <div id="contact">
