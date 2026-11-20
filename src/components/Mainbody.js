@@ -19,10 +19,10 @@ export default class Mainbody extends Component {
           </h1>
           <hr />
           <h4>
-            <b>Backend Software Engineer</b> @ Peliqan
+            <b>Backend Software Engineer</b>
           </h4>
           <h5 id="desc">
-          3 years building data platforms, query engines, and distributed data pipelines. Creator of PysonDB (547K+ downloads) & ProxPi.
+          3 years building data platforms, query engines, and distributed data pipelines. Focused on access control, high-throughput data loading, and reliable task orchestration on production systems.
           </h5>
           <hr />
           <div>
