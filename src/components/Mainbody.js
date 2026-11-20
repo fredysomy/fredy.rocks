@@ -32,7 +32,7 @@ export default class Mainbody extends Component {
             <a href="https://linkedin.com/in/fredysomy">
               <i id="we" class="fab fa-linkedin fa-2x"></i>
             </a>
-            <a href="https://twitter.com/FredySomy">
+            <a href="https://x.com/FredySomy">
               <i id="we" class="fab fa-twitter-square fa-2x"></i>
             </a>
             <a href="https://github.com/fredysomy">
@@ -41,7 +41,7 @@ export default class Mainbody extends Component {
             <a href="mailto:fredysomy@gmail.com">
               <i id="we" class="far fa-envelope fa-2x"></i>
             </a>
-            <a href="https://angel.co/u/fredy-somy">
+            <a href="https://wellfound.com/u/fredy-somy">
               <i id="we" class="fab fa-angellist fa-2x"></i>
             </a>
           </div>

@@ -31,14 +31,26 @@ export default class Header extends Component {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li id="abc" class="nav-item">
-                <a href="https://fredy.rocks/" class="nav-link">
+                <a class="nav-link" href="#divmain">
                   About
                 </a>
               </li>
 
               <li id="abc" class="nav-item">
-                <a href="#head" class="nav-link">
+                <a class="nav-link" href="#experience">
+                  Experience
+                </a>
+              </li>
+
+              <li id="abc" class="nav-item">
+                <a class="nav-link" href="#head">
                   Projects
+                </a>
+              </li>
+
+              <li id="abc" class="nav-item">
+                <a class="nav-link" href="#stufboutme">
+                  Skills
                 </a>
               </li>
 
@@ -49,7 +61,7 @@ export default class Header extends Component {
               </li>
 
               <li id="abc" class="nav-item">
-                <a class="nav-link" href="#stufboutme">
+                <a class="nav-link" href="#contact">
                   Contact
                 </a>
               </li>
