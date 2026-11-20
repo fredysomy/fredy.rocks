@@ -28,6 +28,9 @@ const jobs = [
   },
 ];
 
+// Wide screens show every point; phones start collapsed.
+const wide = window.matchMedia("(min-width: 900px)").matches;
+
 export default function Experience() {
   return (
     <div id="experience">
@@ -52,7 +55,10 @@ export default function Experience() {
               <ul>
                 {j.points.map(([title, text]) => (
                   <li key={title}>
-                    <b>{title}.</b> {text}
+                    <details open={wide}>
+                      <summary>{title}</summary>
+                      <p>{text}</p>
+                    </details>
                   </li>
                 ))}
               </ul>

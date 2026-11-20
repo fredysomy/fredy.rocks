@@ -1,5 +1,6 @@
 #experience {
   width: 80vw;
+  max-width: 1200px;
   margin: 5% auto;
   color: white;
   font-family: "Nanum Gothic", sans-serif;
@@ -28,9 +29,10 @@
 #experience .job-card {
   padding: 28px 32px;
   border-radius: 10px;
-  background: #1e2333c4;
+  background: #1e2333;
   box-shadow: 3px 3px 9px #0c0e14, -4px -3px 9px #303852;
   transition: transform 0.2s;
+  text-align: left;
 }
 #experience .job-card:hover {
   transform: translateY(-3px);
@@ -66,20 +68,62 @@
   margin: 0;
 }
 #experience li {
-  position: relative;
-  padding-left: 22px;
-  margin: 12px 0;
+  margin: 6px 0;
   line-height: 1.6;
   color: #d5d9e6;
 }
-#experience li::before {
-  content: "▹";
+#experience summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 6px 0 6px 22px;
+  position: relative;
+  color: white;
+  font-weight: bold;
+}
+#experience summary::-webkit-details-marker {
+  display: none;
+}
+#experience summary::before {
+  content: "▸";
   position: absolute;
   left: 0;
   color: cyan;
+  transition: transform 0.2s;
 }
-#experience li b {
-  color: white;
+#experience details[open] summary::before {
+  transform: rotate(90deg);
+}
+#experience summary:hover {
+  color: cyan;
+}
+#experience details p {
+  margin: 2px 0 10px 22px;
+}
+/* Wide screens: all points open, laid out as a 2-column grid of tiles. */
+@media screen and (min-width: 900px) {
+  #experience ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+  #experience li {
+    margin: 0;
+    padding: 14px 18px;
+    border-radius: 8px;
+    border-left: 3px solid cyan;
+    background: rgba(255, 255, 255, 0.03);
+  }
+  #experience summary {
+    pointer-events: none;
+    padding: 0 0 6px;
+  }
+  #experience summary::before {
+    display: none;
+  }
+  #experience details p {
+    margin: 0;
+    font-size: 15px;
+  }
 }
 #experience .job-tech {
   display: flex;
