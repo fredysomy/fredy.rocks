@@ -1,97 +1,78 @@
+const badge = (repo) =>
+  `https://img.shields.io/github/stars/${repo}?style=for-the-badge`;
+
 module.exports.proje = [
   {
-    img:
-      "https://raw.githubusercontent.com/fredysomy/pysonDB/master/images/file2son.png?token=APXKHAH6EDEJ7RUG3QOD2OC7ZHQZG",
+    img: "https://raw.githubusercontent.com/pysonDB/pysonDB/master/images/file2son.png",
     name: "PysonDB",
-    stars:
-      "https://img.shields.io/github/stars/fredysomy/pysonDB?style=for-the-badge",
-    desc:
-      "A Simple, Lightweight, Efficent JSON based DataBase for Python with Inbuilt CLI to delete,display,create JSON database.",
-    desc2: " Usefull for SImple Desktop Apps.",
+    stars: badge("pysonDB/pysonDB"),
+    desc: "A lightweight JSON database for Python with CRUD operations, indexing, persistent storage and a built-in CLI.",
+    desc2: "547K+ downloads on PyPI, 400+ GitHub stars.",
     tech: "Python",
-    src: "https://github.com/fredysomy/pysonDB",
-    demo: "https://fredysomy.me/pysonDB/",
+    src: "https://github.com/pysonDB/pysonDB",
+    demo: "https://pysondb.github.io/pysonDB/",
   },
   {
-    img:
-      "https://raw.githubusercontent.com/proxpi/images/main/screely-1641140669081.png",
+    img: "https://raw.githubusercontent.com/proxpi/images/main/screely-1641140669081.png",
     name: "ProxPi",
-    stars:
-      "https://img.shields.io/github/stars/proxpi/proxpi?style=for-the-badge",
-    desc:
-      "A Free, Open Source Proxy for your RESTful API's with analytics and IP/website blocking",
-    desc2: "Usefull for faster frontend API access.",
-    tech: "React JS , HTML ,CSS , Node js , JavaScript",
+    stars: badge("proxpi/proxpi"),
+    desc: "A free, open-source proxy for REST APIs with analytics and IP/URL blocking.",
+    desc2: "Geographical insights and daily API usage statistics.",
+    tech: "Node.js, Express.js, MongoDB, React",
     src: "https://github.com/proxpi/proxpi",
-    demo: "https://proxpi.tech/",
   },
   {
-    img: "https://raw.githubusercontent.com/fredysomy/HealthApp/master/img/Screenshot%20from%202024-01-25%2011-07-19.png",
-     name: "Songify",
-     stars: "https://img.shields.io/github/stars/fredysomy/Songify?style=for-the-badge",
-     desc: "Discover, play music with Songify! A Flutter app that brings your music fantasies to life. ",
-     desc2:"Search, stream, and explore a universe of tunes using Jio Saavn's API. Unveil personalized recommendations, playlists, and albums.",
-     tech: "Dart, Flutter",
-     src: "https://github.com/fredysomy/Songify",
-  
-   },
+    name: "Nakshatra 2024",
+    stars: badge("fredysomy/NK24"),
+    desc: "Official website for Saintgits Techfest, serving 500+ daily active users.",
+    desc2: "Processed Rs. 2.3L+ in registrations through Razorpay with a 95% transaction success rate.",
+    tech: "Firebase, Cloud Functions, Firestore, Razorpay",
+    src: "https://github.com/fredysomy/NK24",
+  },
   {
-    img:
-      "https://raw.githubusercontent.com/fredysomy/MarkdownIt/master/icons/dassad.png",
+    img: "https://raw.githubusercontent.com/fredysomy/MarkdownIt/master/icons/dassad.png",
     name: "MarkdownIt",
-    stars:
-      "https://img.shields.io/github/stars/fredysomy/MarkdownIt?style=for-the-badge",
-    desc:
-      "Efficient Code Editor to live render Markdown and save as Markdown,Html and Pdf + Instant Hosting in The Web.",
-    desc2: "Usefull for writing docs and Hosting it for free.",
-    tech: "Electron JS , HTML,CSS , JavaScript",
+    stars: badge("fredysomy/MarkdownIt"),
+    desc: "Desktop editor that live-renders Markdown and exports to Markdown, HTML and PDF, with instant web hosting.",
+    desc2: "",
+    tech: "Electron, JavaScript, HTML, CSS",
     src: "https://github.com/fredysomy/MarkdownIt",
-    demo: "https://markdownitweb.herokuapp.com/",
   },
-  
-  
   {
     img: "https://raw.githubusercontent.com/fredysomy/HealthApp/master/img/Cardiovascularofessional%20Society~3.png",
     name: "HealthApp",
-    stars: "https://img.shields.io/github/stars/fredysomy/HealthApp?style=for-the-badge",
-    desc: "A Python desktop application to fetch Wikipedia results and save them as text file or in database.This app also has a Section to search details about doctors in a location.",
-    desc2:"",
-    tech: "Python , PyQt5",
+    stars: badge("fredysomy/HealthApp"),
+    desc: "Python desktop app to fetch Wikipedia, Google and disease results and save them as text or to a database.",
+    desc2: "Includes a section to search for doctors by location.",
+    tech: "Python, PyQt5",
     src: "https://github.com/fredysomy/HealthApp",
     demo: "https://github.com/fredysomy/HealthApp/releases/tag/0.0.0",
   },
-    {
+  {
+    name: "Songify",
+    stars: badge("fredysomy/Songify"),
+    desc: "Flutter music app to search, stream and explore songs, playlists and albums using JioSaavn's API.",
+    desc2: "",
+    tech: "Dart, Flutter",
+    src: "https://github.com/fredysomy/Songify",
+  },
+  {
     img: "https://raw.githubusercontent.com/fredysomy/CsvToDeta/main/images/20201203_215247_0000~2.png",
     name: "CsvToDeta",
-    stars: "https://img.shields.io/github/stars/fredysomy/CsvToDeta?style=for-the-badge",
-    desc: " A Lightweight CLI tool to upload CSV files data into Deta Base.",
-    desc2:"Can upload many JSON docs with a single command.",
-    tech: "Python , Fire , Deta",
+    stars: badge("fredysomy/CsvToDeta"),
+    desc: "A lightweight CLI tool to upload CSV data into Deta Base.",
+    desc2: "",
+    tech: "Python, Fire",
     src: "https://github.com/fredysomy/CsvToDeta",
     demo: "https://pypi.org/project/csvtodeta/",
   },
   {
-    img: "https://raw.githubusercontent.com/fredysomy/CsvToDeta/main/images/20201203_215247_0000~2.png",
     name: "gitscrpy",
-    stars: "https://img.shields.io/github/stars/fredysomy/gitscrpy?style=for-the-badge",
-    desc: "  A simple python package to scrape Github user repositories and some user details.",
-    desc2:"",
-    tech: "Python , Fire",
+    stars: badge("fredysomy/gitscrpy"),
+    desc: "A Python package to scrape GitHub user repositories and profile details.",
+    desc2: "",
+    tech: "Python, Fire",
     src: "https://github.com/fredysomy/gitscrpy",
     demo: "https://pypi.org/project/gitscrpy/",
   },
-    {
-    img: "https://raw.githubusercontent.com/fredysomy/CsvToDeta/main/images/20201203_215247_0000~2.png",
-    name: "Blogitn0w",
-    stars: "https://img.shields.io/github/stars/fredysomy/Songify?style=for-the-badge",
-    desc: "A simple Blog App made with Node,Express,MongoDb.",
-    desc2:"Users can write blogs and have a dashboard where they can edit,create new blogs , change password and edit bio.",
-    tech: "Node , Express JS , MongoDB",
-    src: "https://github.com/fredysomy/Blogitn0w",
-    demo: "https://blogitn0w.herokuapp.com/",
-  },
 ];
-
-
-
-

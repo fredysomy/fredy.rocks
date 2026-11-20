@@ -17,7 +17,7 @@ export default class Projects extends Component {
           return (
             <div id="main">
               <div className="maindiv">
-                <img className="img-div" src={projects.img} />
+                {projects.img && <img className="img-div" src={projects.img} />}
 
                 <div className="content-div">
                   <h3>
@@ -35,11 +35,13 @@ export default class Projects extends Component {
                       Source Code
                     </button>
                   </a>
-                  <a href={projects.demo}>
-                    <button className="btn btn-outline-primary btn-sm bttn">
-                      Documentation
-                    </button>
-                  </a>
+                  {projects.demo && (
+                    <a href={projects.demo}>
+                      <button className="btn btn-outline-primary btn-sm bttn">
+                        Documentation
+                      </button>
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
